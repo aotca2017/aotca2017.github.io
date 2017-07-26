@@ -1,7 +1,7 @@
 var main = {} || "";
 
 main.init = function(){
-    // main.onNavbarScroll();
+    main.onNavbarScroll();
     main.onBurgerMenuClick();
     main.onIconTransition();
     main.initCountDown();

@@ -4,6 +4,9 @@
 - name: Committee
   url: comittee
 
+- name: About Philippines
+  url: aboutPH
+
 - name: Accomodations
   url: accomodation
 
