@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" id="icon-transition" class="navbar-toggle toggle-menu menu-right" data-toggle="collapse" data-target="#navbar-right-collapse">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="/img/brand-logo.png"/>
+            </a>
+            <a class="navbar-brand" href="#">
+                <img src="/img/aotca-ico.png"/>
+            </a>
+
+        </div>
+        <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="navbar-right-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {% for navbarMenu in site.data.navbar %}
+                <li class="navbar-menu" class="navbar-menu">
+                    <a class="menu" href="#{{ navbarMenu.url }}">{{ navbarMenu.name | upcase }}</a>
+                </li>
+                {% endfor %}
+                <li class="navbar-menu dropdown">
+                    <a class="menu-drop dropdown-toggle" data-toggle="dropdown" href="#">REGISTRATION
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://aotca2017.github.io/aotca2017local/" target="_blank">Local Delegates</a></li>
+                        <li><a href="https://aotca2017.github.io/aotca2017international/" target="_blank">International Delegates</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -3,32 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="">
 
+  <!--<meta property="og:image" content="" />-->
+  <!--<meta property="og:description" content="" />-->
+  <meta property="og:url"content="https://aotca2017.github.io" />
+  <meta property="og:title" content="AOTCA2017" />
+
   <title>AOTCA2017</title>
+  <!--<link rel="shorcut icon" href="/favicon/favicon.ico" type="image/x-icon">-->
 
-
-  <style>
-  html,body{
-  margin: 0;
-  padding: 0;
-  }
-
-  #mock{
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-  </style>
-
+  <link rel="stylesheet" href="/css/home.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <body>
 
-<img id="mock" src="/img/aotca-mock.jpg"/>
+{% include navbar.html %}
+{{ content }}
+{% include footer.html %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jPushMenu.js"></script>
+<script type="text/javascript" src="/js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="/js/kinetic-v5.1.0.js"></script>
+<script type="text/javascript" src="/js/home.js"></script>
+
 
 </body>
+
 </html>

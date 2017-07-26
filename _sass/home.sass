@@ -1,0 +1,301 @@
+//Global
+.no-gutter
+  padding-left: 0
+  padding-right: 0
+
+.stylized
+  font-family: 'Dancing-Script-Regular','sans-serif'
+
+#cover
+  position: relative
+  background-image: url('/img/cover-bg.jpg')
+  background-attachment: fixed
+  background-size: cover
+  background-position: center center
+  height: 100vh
+  .container-fluid
+    height: inherit
+    .bg-overlay
+      position: absolute
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,0.5)
+    .intro-container
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      margin-left: auto
+      margin-right: auto
+      .intro-image
+        .cover-image
+          max-width: 90%
+          height: auto
+          display: block
+          margin-left: auto
+          margin-right: auto
+    .mouse-scroll-container
+      position: relative
+      margin: 30px auto
+      .mouse
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 28px
+        height: 44px
+        border-radius: 12px
+        border: 2px solid #ffffff
+        text-align: center
+        &:after
+          display: inline-block
+          height: 8px
+          width: 8px
+          background-color: #ffffff
+          border-radius: 50%
+          content: ""
+          animation: scroll 1.3s ease-out infinite forwards
+      .caption
+        margin-top: 10px
+        text-transform: uppercase
+        text-align: center
+        color: white
+        font-family: "Montserrat"
+
+
+    -ms-transform: translateY(0)
+
+
+#countdown
+  background-image: url("/img/asset/countdown-bg.jpg")
+  background-attachment: fixed
+  background-size: cover
+  background-position: center
+  .countdown-container
+    margin: 70px auto
+    padding: 30px 0
+    background-color: #ffffff
+    .section-header
+      color: #3E3D39
+      font-family: 'Montserrat'
+      text-transform: uppercase
+      font-weight: normal
+      font-style: normal
+      font-size: 2em
+      margin-bottom: 20px
+      position: relative
+      &:before
+        margin: 0 auto
+        text-align: center
+        content: ""
+        height: 2px
+        width: 200px
+        display: block
+        position: relative
+        bottom: -70px
+        background-color: #ddd
+    #clock
+      .item-list
+        margin: 30px 0
+        .item-container
+          position: relative
+          .countdown-name
+            display: block
+            text-align: center
+            margin: 15px 0
+          .countdown-value
+            position: relative
+            display: block
+            text-align: center
+            width: 50px
+            height: 50px
+            margin-left: auto
+            margin-right: auto
+            border: 1px solid #a4a4a4
+            padding: 65px
+            border-radius: 50%
+            .countdown-number
+              position: absolute
+              top: 50%
+              left: 0
+              right: 0
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              font-size: 20px
+
+.modal.fade
+  .modal-dialog
+    position: absolute
+    top: 40%
+    left: 0
+    right: 0
+    opacity: 0
+    -webkit-transform: translateY(-40%)
+    -ms-transform: translateY(-40%)
+    -o-transform: translateY(-40%)
+    transform: translateY(-40%)
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease
+    transition: all 0.3s ease
+  &.in
+    background-color: rgba(0,0,0,0.7)
+    .modal-dialog
+      min-width: 50%
+      max-width: 50%
+      margin-top: 0
+      margin-bottom: 0
+      position: absolute
+      top: 40%
+      opacity: 1
+      -webkit-transform: translateY(-40%)
+      -ms-transform: translateY(-40%)
+      -o-transform: translateY(-40%)
+      transform: translateY(-40%)
+
+/* DIALOG CONTENT
+.modal-content
+  border: none
+  border-radius: 2px
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  padding: 0
+  background-color: transparent
+  .close
+    position: absolute
+    width: 35px
+    height: 35px
+    background-color: #000
+    opacity: 1
+    color: #ffffff
+    z-index: 999
+    right: -5px
+    top: -5px
+    border-radius: 50%
+    font-size: 24px
+    border: 2px solid #fff
+    line-height: 34px
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.35)
+    box-shadow: none
+    text-shadow: none
+    &:focus
+      outline: none
+    &:hover
+      opacity: 1
+      color: #ffffff
+  .text-alert
+    margin: 20px auto
+    color: white
+    text-align: center
+
+
+
+
+@media (max-width: 1440px)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 40%
+            min-width: 40%
+
+  .modal.fade.in
+    .modal-dialog
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      max-width: 90%
+      min-width: 70%
+
+@media (max-width: $screen-md-max)
+
+
+@media (max-width: $screen-sm-max)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 90%
+            height: auto
+  #countdown
+    background-image: none
+    .countdown-container
+      margin: 0
+
+
+@media (max-width: 800px) and (orientation: landscape)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 50%
+
+@media (max-width: $screen-xs-max)
+
+@media (max-width: 568px)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 190px 0 100px
+      .mouse-scroll-container
+        .caption
+          font-size: 12px
+
+  #countdown
+    .countdown-container
+      .section-header
+        font-size: 1.3em
+
+
+  footer
+    h4
+      font-size: 14px
+    h5
+      font-size: 12px
+
+@media (max-width: 568px) and (orientation: landscape)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 150px 0 100px
+  #our-gallery
+    .container
+      #gallery-container
+        .placeholder
+          padding: 2px
+  footer
+    h4
+      font-size: 14px
+    h5
+      font-size: 12px
+
+@media (max-width: 568px) and (orientation: landscape)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 150px 0 100px
+
+
+
+
+
+

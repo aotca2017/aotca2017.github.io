@@ -1,0 +1,13 @@
+- name: Home
+  url: home
+
+- name: Committee
+  url: comittee
+
+- name: Accomodations
+  url: accomodation
+
+- name: Contact
+  url: contact
+
+
