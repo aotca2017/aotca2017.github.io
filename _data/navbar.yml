@@ -13,11 +13,11 @@
 - name: About Philippines
   url: aboutPH
 
-- name: Information
-  url: information
-
 - name: Accomodations
   url: accomodation
+
+- name: Information
+  url: information
 
 - name: Contact Us
   url: contact
