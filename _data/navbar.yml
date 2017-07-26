@@ -8,16 +8,16 @@
 
 
 - name: Committee
-  url: committee
+  url: "/committee"
 
 - name: About the Philippines
-  url: about-ph
+  url: "/about-ph"
 
 - name: Accomodation
-  url: accommodation
+  url: "/accommodation"
 
 - name: Information
 
 
 - name: Contact Us
-  url: contact
+  url: "/contact"
