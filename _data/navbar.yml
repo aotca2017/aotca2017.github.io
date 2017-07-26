@@ -1,23 +1,23 @@
 - name: Home
-  url: home
+  url: "/"
 
 - name: Program
-  url: program
+
 
 - name: Gallery
-  url: gallery
+
 
 - name: Committee
   url: committee
 
 - name: About Philippines
-  url: aboutPH
+
 
 - name: Accomodations
-  url: accomodation
+
 
 - name: Information
-  url: information
+
 
 - name: Contact Us
   url: contact

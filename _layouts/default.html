@@ -15,8 +15,10 @@
 
   <title>AOTCA2017</title>
   <link rel="shorcut icon" href="/favicon.ico" type="image/x-icon">
-
+  {% if page.url == "/" %}
   <link rel="stylesheet" href="/css/home.css">
+  {% endif %}
+  <link rel="stylesheet" href="/css/{{ layout.css }}">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
@@ -33,7 +35,7 @@
 <script type="text/javascript" src="/js/jquery.countdown.min.js"></script>
 <script type="text/javascript" src="/js/kinetic-v5.1.0.js"></script>
 <script type="text/javascript" src="/js/home.js"></script>
-
+{% if page.url == "/" %}
 <script type="text/javascript">
     //GMAP
     function initMap() {
@@ -179,6 +181,8 @@
     }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfwkb2DqBS4HrdZ5XNLgfzvDfD2mMvw4&callback=initMap"></script>
+
+{% endif %}
 </body>
 
 </html>
