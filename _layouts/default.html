@@ -34,7 +34,165 @@
 <script type="text/javascript" src="/js/kinetic-v5.1.0.js"></script>
 <script type="text/javascript" src="/js/home.js"></script>
 
-
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfwkb2DqBS4HrdZ5XNLgfzvDfD2mMvw4&callback=initMap"></script>
+<script type="text/javascript">
+    //Form on submit
+    $("#form-content").on("submit",function(){
+        $("#ss-submit").attr("disabled", true);
+        setTimeout(function(){
+            $("#ss-submit").attr("disabled", false);
+        }, 1000);
+        $("#hidden_iframe").on('load',function () {
+            $("#modal-message").modal('show');
+            $("#form-content")[0].reset();
+            setTimeout(function(){
+                $("#modal-message").modal('hide');
+            }, 4000);
+        });
+    });
+    //GMAP
+    window.initMap = function() {
+        var mapLocation = {lat: 14.554083, lng: 121.024705};
+        var customMapType = new google.maps.StyledMapType(
+            [
+                {
+                    "featureType": "landscape",
+                    "stylers": [
+                        {
+                            "hue": "#FFA800"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 0
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "stylers": [
+                        {
+                            "hue": "#53FF00"
+                        },
+                        {
+                            "saturation": -73
+                        },
+                        {
+                            "lightness": 40
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "stylers": [
+                        {
+                            "hue": "#FBFF00"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 0
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "stylers": [
+                        {
+                            "hue": "#00FFFD"
+                        },
+                        {
+                            "saturation": 0
+                        },
+                        {
+                            "lightness": 30
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "stylers": [
+                        {
+                            "hue": "#00BFFF"
+                        },
+                        {
+                            "saturation": 6
+                        },
+                        {
+                            "lightness": 8
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "stylers": [
+                        {
+                            "hue": "#679714"
+                        },
+                        {
+                            "saturation": 33.4
+                        },
+                        {
+                            "lightness": -25.4
+                        },
+                        {
+                            "gamma": 1
+                        }
+                    ]
+                }
+            ],
+            {
+                name: 'Custom Style'
+            });
+        var customMapTypeId = 'custom_style';
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            draggable: true,
+            zoomControl: true,
+            scaleControl: false,
+            scrollwheel: false,
+            center: mapLocation,
+            mapTypeControlOptions: {
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
+            }
+        });
+        var contentString =
+            '<div id="info-window-container">'+
+            '<div class="info-window-content">' +
+            '<address id="info-address">' +
+            '<h4>AOTCA2017 International Tax Conference</h4>' +
+            '<address class="address">19 - 20 October 2017<br>Makati Shangri-La, Manila, Philippines</address>'+
+            '</div>'+
+            '<div class="info-window-footer">' +
+            '<a class="get-direction" href="https://www.google.com.ph/maps/dir//Makati+Shangri-La,+Manila,+Makati+Avenue+corner,+Ayala+Avenue,+Makati,+1200+Metro+Manila/@14.5537666,121.0225697,17z/data=!4m15!1m6!3m5!1s0x3397c905010c26f7:0x6e874e6a6923d1c3!2sMakati+Shangri-La,+Manila!8m2!3d14.5537614!4d121.0247584!4m7!1m0!1m5!1m1!1s0x3397c905010c26f7:0x6e874e6a6923d1c3!2m2!1d121.0247584!2d14.5537614?hl=en" target="_blank">GET DIRECTIONS</a>'+
+            '</div>'
+        '</div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString,
+            position: mapLocation
+        });
+        infowindow.open(map);
+        map.mapTypes.set(customMapTypeId, customMapType);
+        map.setMapTypeId(customMapTypeId);
+    }
+</script>
 </body>
 
 </html>
