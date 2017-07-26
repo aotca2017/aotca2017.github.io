@@ -12,7 +12,8 @@
   background-attachment: fixed
   background-size: cover
   background-position: center center
-  height: 100vh
+  margin-top: 120px
+  height: calc(100vh - 120px)
   .container-fluid
     height: inherit
     .bg-overlay
@@ -354,6 +355,12 @@
       -ms-transform: translateY(-50%)
       max-width: 90%
       min-width: 70%
+
+
+@media (max-width: $screen-lg)
+  #cover
+    height: 100vh
+    margin-top: 0
 
 @media (max-width: $screen-md-max)
 
