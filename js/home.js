@@ -1,16 +1,16 @@
 var main = {} || "";
 
 main.init = function(){
-    main.onNavbarScroll();
+    // main.onNavbarScroll();
     main.onBurgerMenuClick();
     main.onIconTransition();
     main.initCountDown();
-    main.onMenuClick();
+    // main.onMenuClick();
     // main.onClickBrandLogo();
-    main.onClickIntroButton();
+    // main.onClickIntroButton();
     main.onFormSubmit();
-    main.onVideoImageChange();
-    main.videoButtonOnClick();
+    // main.onVideoImageChange();
+    // main.videoButtonOnClick();
     main.onImageLoad();
 }
 
