@@ -34,24 +34,9 @@
 <script type="text/javascript" src="/js/kinetic-v5.1.0.js"></script>
 <script type="text/javascript" src="/js/home.js"></script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfwkb2DqBS4HrdZ5XNLgfzvDfD2mMvw4&callback=initMap"></script>
 <script type="text/javascript">
-    //Form on submit
-    $("#form-content").on("submit",function(){
-        $("#ss-submit").attr("disabled", true);
-        setTimeout(function(){
-            $("#ss-submit").attr("disabled", false);
-        }, 1000);
-        $("#hidden_iframe").on('load',function () {
-            $("#modal-message").modal('show');
-            $("#form-content")[0].reset();
-            setTimeout(function(){
-                $("#modal-message").modal('hide');
-            }, 4000);
-        });
-    });
     //GMAP
-    window.initMap = function() {
+    function initMap() {
         var mapLocation = {lat: 14.554083, lng: 121.024705};
         var customMapType = new google.maps.StyledMapType(
             [
@@ -193,6 +178,7 @@
         map.setMapTypeId(customMapTypeId);
     }
 </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANfwkb2DqBS4HrdZ5XNLgfzvDfD2mMvw4&callback=initMap"></script>
 </body>
 
 </html>
