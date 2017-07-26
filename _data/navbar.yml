@@ -10,11 +10,11 @@
 - name: Committee
   url: committee
 
-- name: About Philippines
+- name: About the Philippines
+  url: about-ph
 
-
-- name: Accomodations
-
+- name: Accomodation
+  url: accomodation
 
 - name: Information
 
