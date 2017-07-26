@@ -278,21 +278,94 @@
     height: 100vh
     margin-top: 0
 
-@media (max-width: $screen-md-max)
-
-
 @media (max-width: $screen-sm-max)
   #cover
     .container-fluid
       .intro-container
-        .intro-image
-          .cover-image
-            max-width: 90%
-            height: auto
-  #countdown
-    background-image: none
-    .countdown-container
-      margin: 0
+        .countdown-container
+          #clock
+            margin-bottom: 30px
+            display: table
+            margin-left: auto
+            margin-right: auto
+            .item-list
+              font-size: 48px
+              .countdown-name
+                font-size: 14px
+          .countdown-header
+            text-align: center
+            font-size: 28px
+          .countdown-subtitle
+            font-size: 16px
+            text-align: center
+
+  #welcome
+    .left-section
+      .section-image
+        max-width: 100%
+        height: 250px
+        margin-bottom: 30px
+    .right-section
+      padding-left: 30px
+      padding-right: 30px
+
+
+  #welcome
+    .right-section
+      .section-officer
+        .officer-association
+          margin-bottom: 30px
+
+
+@media (max-width: $screen-xs-max)
+  #cover
+    .container-fluid
+      .intro-container
+        .countdown-container
+          #clock
+            display: block
+            float: left
+            width: 100%
+            .item-list
+              font-size: 38px
+              text-align: center
+              width: 25%
+              margin-left: 0
+              margin-right: 0
+              .countdown-name
+                font-size: 14px
+          .countdown-header
+            font-size: 22px
+          .countdown-subtitle
+            font-size: 12px
+
+  #sponsor
+    .section-container
+      .section-header
+        font-size: 28px
+      .platinum-section
+        .sponsor-list
+          margin-top: 15px
+          margin-bottom: 15px
+          .link
+            .sponsor-image
+              height: 60px
+      .gold-section
+        .sponsor-list
+          margin-top: 15px
+          margin-bottom: 15px
+          .link
+            .sponsor-image
+              height: 60px
+              &.gold2
+                height: 40px
+
+
+
+
+
+
+
 
 
 @media (max-width: 800px) and (orientation: landscape)
