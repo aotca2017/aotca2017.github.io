@@ -29,103 +29,54 @@
       -ms-transform: translateY(-50%)
       margin-left: auto
       margin-right: auto
-      .intro-image
-        .cover-image
-          max-width: 90%
-          height: auto
-          display: block
-          margin-left: auto
-          margin-right: auto
-    .mouse-scroll-container
-      position: relative
-      margin: 30px auto
-      .mouse
-        display: block
-        margin-left: auto
-        margin-right: auto
-        width: 28px
-        height: 44px
-        border-radius: 12px
-        border: 2px solid #ffffff
-        text-align: center
-        &:after
+      .countdown-container
+        #clock
+          font-weight: 700
+          margin: 0 -30px 30px
           display: inline-block
-          height: 8px
-          width: 8px
-          background-color: #ffffff
-          border-radius: 50%
-          content: ""
-          animation: scroll 1.3s ease-out infinite forwards
-      .caption
-        margin-top: 10px
-        text-transform: uppercase
-        text-align: center
-        color: white
-        font-family: "Montserrat"
-
-
-    -ms-transform: translateY(0)
-
-
-#countdown
-  background-image: url("/img/asset/countdown-bg.jpg")
-  background-attachment: fixed
-  background-size: cover
-  background-position: center
-  .countdown-container
-    margin: 70px auto
-    padding: 30px 0
-    background-color: #ffffff
-    .section-header
-      color: #3E3D39
-      font-family: 'Montserrat'
-      text-transform: uppercase
-      font-weight: normal
-      font-style: normal
-      font-size: 2em
-      margin-bottom: 20px
-      position: relative
-      &:before
-        margin: 0 auto
-        text-align: center
-        content: ""
-        height: 2px
-        width: 200px
-        display: block
-        position: relative
-        bottom: -70px
-        background-color: #ddd
-    #clock
-      .item-list
-        margin: 30px 0
-        .item-container
-          position: relative
-          .countdown-name
+          .item-list
             display: block
-            text-align: center
-            margin: 15px 0
-          .countdown-value
-            position: relative
-            display: block
-            text-align: center
-            width: 50px
-            height: 50px
-            margin-left: auto
-            margin-right: auto
-            border: 1px solid #a4a4a4
-            padding: 65px
-            border-radius: 50%
-            .countdown-number
-              position: absolute
-              top: 50%
-              left: 0
-              right: 0
-              transform: translateY(-50%)
-              -webkit-transform: translateY(-50%)
-              -moz-transform: translateY(-50%)
-              -ms-transform: translateY(-50%)
-              -o-transform: translateY(-50%)
-              font-size: 20px
+            float: left
+            font-size: 62px
+            line-height: 1
+            color: #fff
+            letter-spacing: 3px
+            margin: 0 30px
+            font-family: "Gotham-Medium"
+            #countdown-day
+              color: #fff200 !important
+            .countdown-name
+              display: block
+              font-size: 22px
+              margin-top: 8px
+              line-height: 1
+              text-transform: uppercase
+              letter-spacing: 1px
+              color: #fff
+              font-family: "Gotham-Light"
+            #countdown-hour
+              color: #ff8a00 !important
+            #countdown-minute
+              color: #00b9ff !important
+            #countdown-second
+              color: #8dc63f !important
+        .countdown-header
+          margin-top: 0
+          margin-bottom: 10px
+          color: #ffffff
+          font-size: 42px
+          font-weight: 900
+          font-family: "Gotham-Medium"
+        .countdown-subtitle
+          color: #ffffff
+          font-size: 22px
+          line-height: 24px
+          font-weight: 700
+
+
+
+
+
 
 .modal.fade
   .modal-dialog
