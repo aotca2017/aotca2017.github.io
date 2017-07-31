@@ -91,6 +91,7 @@ nav
               -o-transition: all 0.3s ease
               transition: all 0.3s ease
             &:before
+              opacity: 0
               -webkit-transform: translate(0, 0)
               -ms-transform: translate(0, 0)
               -o-transform: translate(0, 0)
@@ -100,6 +101,7 @@ nav
               left: -101%
 
             &:after
+              opacity: 0
               -webkit-transform: translate(0, 0)
               -ms-transform: translate(0, 0)
               -o-transform: translate(0, 0)
@@ -109,12 +111,14 @@ nav
               top: -101%
             &:hover
               &:before
+                opacity: 1
                 -webkit-transform: translate(101%, 0)
                 -ms-transform: translate(101%, 0)
                 -o-transform: translate(101%, 0)
                 transform: translate(101%, 0)
 
               &:after
+                opacity: 1
                 -webkit-transform: translate(0, 101%)
                 -ms-transform: translate(0, 101%)
                 -o-transform: translate(0, 101%)
@@ -265,6 +269,11 @@ footer
             &:after
               border-left: 1px solid white !important
               border-right: 1px solid white !important
+          .dropdown-menu
+            li
+              a
+                color: black !important
+                font-size: 11px
 
 
   .navbar-collapse.collapse
