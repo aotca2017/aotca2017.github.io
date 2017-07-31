@@ -201,6 +201,16 @@ nav
                 -o-transform: translate(0, 101%)
                 transform: translate(0, 101%)
 
+footer
+  position: relative
+  background-color: #333333
+  .footer-content
+    padding: 25px
+    font-family: "Montserrat"
+    h5
+      color: #bbbbbb
+
+
 
 @media (max-width: 1250px)
   .navbar-default
@@ -385,13 +395,37 @@ nav
           background: white
 
 
-footer
-  position: relative
-  background-color: #333333
-  .footer-content
-    padding: 25px
-    font-family: "Montserrat"
-    h5
-      color: #bbbbbb
+@media (max-width: $screen-xs-max)
+  nav
+    &.navbar-shrink
+      .container
+        .navbar-header
+          .navbar-brand
+            img
+              height: 70px!important
+          .brand-small
+            img
+              height: 40px!important
+
+
+@media (max-width: 568px)
+  nav
+    &.navbar-shrink
+      .container
+        padding-left: 0
+        padding-right: 0
+        .navbar-header
+          display: block
+          .brand-small
+            img
+            
+
+              
+
+  #icon-transition
+    position: relative
+
+
+
 
 
