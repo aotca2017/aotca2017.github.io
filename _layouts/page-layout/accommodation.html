@@ -5,47 +5,53 @@ title: Accommodation
 javascript: >
     <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
     <script type="text/javascript">
-        var locations = [
-            ['<a class="hotel-name" target="_blank" href="http://www.shangri-la.com/manila/makatishangrila/">Makati Shangri-La Hotel</a> <br/> <span class="hotel-address">Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 813 8888 <br>Fax: +63 (2) 813 5499 <br> Email: slm@shangri-la.com </span>', 14.553917, 121.024694, 1],
-            ['<a class="hotel-name" target="_blank" href="http://manila.peninsula.com/en/default">The Peninsula Manila</a> <br/> <span class="hotel-address">Corner of Ayala and Makati Avenues, 1226, Makati, Metro Manila, Republic of the Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 887 2888 <br>Email: pmn@peninsula.com</span>',14.555029,121.025457, 2],
-            ['<a class="hotel-name" target="_blank" href="http://www.the-ascott.com/en/philippines/manila/ascott-makati/index.html">Ascott Makati</a> <br/> <span class="hotel-address">Glorietta 4, Ayala Centre, Makati City 1224, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 729 8888 <br>Email: enquiry.manila@the-ascott.com</span>',14.551011, 121.026261, 3],
-            ['<a class="hotel-name" target="_blank" href="https://manila.newworldhotels.com/en/">New World Makati Hotel</a> <br/> <span class="hotel-address">Esperanza Street corner Makati Avenue, Ayala Center, Makati City 1228, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 811 6888 <br>Fax: +63 (2) 811 6777</span>',14.551332, 121.021478, 4],
-            ['<a class="hotel-name" target="_blank" href="https://www.makatidiamond.com/">Makati Diamond Residences</a> <br/> <span class="hotel-address">118 Legazpi Street, Legazpi Village, Makati City 1229 Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 317 0999 <br>Fax: +63 (2) 878 9699 <br>Email: reservations@makatidiamond.com</span>',14.553764, 121.020909, 5],
-            ['<a class="hotel-name" target="_blank" href="https://www.dusit.com/dusitthani/manila/">Dusit Thani Manila</a> <br/> <span class="hotel-address"> Ayala Centre, 1223 Makati City Metro Manila, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 238 8888 <br>Fax: +63 (2) 238 8800 <br>Email: dtmn@dusit.com</span>',14.548569, 121.026199, 6],
-            ['<a class="hotel-name" target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/makati/mnlgs/hoteldetail">Holiday Inn Hotel & Suites Makati</a> <br/> <span class="hotel-address">Glorietta Mall, Palm Drive, Ayala Center, Makati, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 909 0888 <br>Email: hism.reservations@ihg.com</span>',14.550576, 121.025107, 7],
-            ['<a class="hotel-name" target="_blank" href="http://www.discoveryprimea.com/">Discovery Primea</a> <br/> <span class="hotel-address">6749 Ayala Avenue, Makati City, 1226 Philippines </span> <br/> <span class="hotel-contact">Tel: +63 (2) 955 8888 <br>Fax: +63 (2) 955 8889 <br>Email: dp.rsvn@discovery.com.ph</span>',14.553464, 121.026942, 8],
-            ['<a class="hotel-name" target="_blank" href="http://www.fairmont.com/makati/">Fairmont Makati</a> <br/> <span class="hotel-address">1 Raffles Drive, Makati Avenue, Makati City, 1224 Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 795 1888 <br>Fax: +63 (2) 555 9899 <br>Email: makati@fairmont.com</span>',14.550752, 121.022796, 9]
+        function initMap() {
+            var locations = [
+                ['<a class="hotel-name" target="_blank" href="http://www.shangri-la.com/manila/makatishangrila/">Makati Shangri-La Hotel</a> <br/> <span class="hotel-address">Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 813 8888 <br>Fax: +63 (2) 813 5499 <br> Email: slm@shangri-la.com </span>', 14.553917, 121.024694, 1],
+                ['<a class="hotel-name" target="_blank" href="http://manila.peninsula.com/en/default">The Peninsula Manila</a> <br/> <span class="hotel-address">Corner of Ayala and Makati Avenues, 1226, Makati, Metro Manila, Republic of the Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 887 2888 <br>Email: pmn@peninsula.com</span>', 14.555029, 121.025457, 2],
+                ['<a class="hotel-name" target="_blank" href="http://www.the-ascott.com/en/philippines/manila/ascott-makati/index.html">Ascott Makati</a> <br/> <span class="hotel-address">Glorietta 4, Ayala Centre, Makati City 1224, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 729 8888 <br>Email: enquiry.manila@the-ascott.com</span>', 14.551011, 121.026261, 3],
+                ['<a class="hotel-name" target="_blank" href="https://manila.newworldhotels.com/en/">New World Makati Hotel</a> <br/> <span class="hotel-address">Esperanza Street corner Makati Avenue, Ayala Center, Makati City 1228, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 811 6888 <br>Fax: +63 (2) 811 6777</span>', 14.551332, 121.021478, 4],
+                ['<a class="hotel-name" target="_blank" href="https://www.makatidiamond.com/">Makati Diamond Residences</a> <br/> <span class="hotel-address">118 Legazpi Street, Legazpi Village, Makati City 1229 Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 317 0999 <br>Fax: +63 (2) 878 9699 <br>Email: reservations@makatidiamond.com</span>', 14.553764, 121.020909, 5],
+                ['<a class="hotel-name" target="_blank" href="https://www.dusit.com/dusitthani/manila/">Dusit Thani Manila</a> <br/> <span class="hotel-address"> Ayala Centre, 1223 Makati City Metro Manila, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 238 8888 <br>Fax: +63 (2) 238 8800 <br>Email: dtmn@dusit.com</span>', 14.548569, 121.026199, 6],
+                ['<a class="hotel-name" target="_blank" href="https://www.ihg.com/holidayinn/hotels/us/en/makati/mnlgs/hoteldetail">Holiday Inn Hotel & Suites Makati</a> <br/> <span class="hotel-address">Glorietta Mall, Palm Drive, Ayala Center, Makati, Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 909 0888 <br>Email: hism.reservations@ihg.com</span>', 14.550576, 121.025107, 7],
+                ['<a class="hotel-name" target="_blank" href="http://www.discoveryprimea.com/">Discovery Primea</a> <br/> <span class="hotel-address">6749 Ayala Avenue, Makati City, 1226 Philippines </span> <br/> <span class="hotel-contact">Tel: +63 (2) 955 8888 <br>Fax: +63 (2) 955 8889 <br>Email: dp.rsvn@discovery.com.ph</span>', 14.553464, 121.026942, 8],
+                ['<a class="hotel-name" target="_blank" href="http://www.fairmont.com/makati/">Fairmont Makati</a> <br/> <span class="hotel-address">1 Raffles Drive, Makati Avenue, Makati City, 1224 Philippines</span> <br/> <span class="hotel-contact">Tel: +63 (2) 795 1888 <br>Fax: +63 (2) 555 9899 <br>Email: makati@fairmont.com</span>', 14.550752, 121.022796, 9]
 
-        ];
+            ];
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            draggable: true,
-            zoomControl: true,
-            scaleControl: false,
-            scrollwheel: false,
-            center: new google.maps.LatLng(14.553917, 121.024694),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        });
-
-        var infowindow = new google.maps.InfoWindow();
-
-        var marker, i;
-
-        for (i = 0; i < locations.length; i++) {
-            marker = new google.maps.Marker({
-                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                map: map
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                draggable: true,
+                zoomControl: true,
+                scaleControl: false,
+                scrollwheel: false,
+                center: new google.maps.LatLng(14.553917, 121.024694),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
             });
 
-            google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                return function() {
-                    infowindow.setContent(locations[i][0]);
-                    infowindow.open(map, marker);
-                }
-            })(marker, i));
+            var infowindow = new google.maps.InfoWindow();
+
+            var marker, i;
+
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                });
+
+                google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                        infowindow.setContent(locations[i][0]);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+            }
         }
+
+
     </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkVtX_aRok2Wk5HMg6EB4ZXn5qnfgwdJs&callback=initMap"></script>
 
 
 ---
