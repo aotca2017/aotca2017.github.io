@@ -17,6 +17,7 @@
   url: "/accommodation"
 
 - name: Information
+  url: "/information"
 
 
 - name: Contact Us
