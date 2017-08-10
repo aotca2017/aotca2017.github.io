@@ -17,6 +17,10 @@
     background-position: center center
     height: 250px
     margin-bottom: 30px
+
+  .divider
+    height: 100px
+    float: left
   .program-content
     margin-top: 50px
     margin-bottom: 50px
@@ -39,7 +43,7 @@
       border-spacing: 0
       font-size: 14px
       line-height: 2
-      margin: 0 0 100px
+      margin: 0 0 0
       thead
         border-top: 1px solid #e5e5e5
       tbody
@@ -78,21 +82,24 @@
 @media (max-width: $screen-xs-max)
   #program
     .container
-      table
-        tr
-          td
-            float: left
-            width: 50%
+      .program-content
+        .schedule-date
+          font-size: 38px
+          span
+            font-size: 14px
+        .table-header
+          font-size: 18px
+          margin-left: 30px
+
+
+
+
 
 @media (max-width: 568px)
   #program
     .container
       padding-left: 30px
       padding-right: 30px
-      table
-        tr
-          td
-            width: 100%
 
 
 
