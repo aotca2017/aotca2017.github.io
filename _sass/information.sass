@@ -41,13 +41,27 @@
 
 
 @media (max-width: $screen-sm-max)
-  #aboinformationut
+  #information
     margin-top: 111px
+
+@media (max-width: $screen-xs-max)
+  #information
+    .container
+      table
+        tr
+          td
+            float: left
+            width: 50%
 
 @media (max-width: 568px)
   #information
     .container
       padding-left: 30px
       padding-right: 30px
+      table
+        tr
+          td
+            width: 100%
+
 
 

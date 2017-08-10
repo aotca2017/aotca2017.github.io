@@ -1,0 +1,98 @@
+//Global
+.no-gutter
+  padding-left: 0
+  padding-right: 0
+
+.text-medium
+  font-family: "Gotham-Medium"
+
+#program
+  min-height: 100vh
+  margin-top: 176px
+  position: relative
+  padding-bottom: 50px
+  .banner-section
+    background-image: url("/img/program-bg.jpg")
+    background-size: cover
+    background-position: center center
+    height: 250px
+    margin-bottom: 30px
+  .program-content
+    margin-top: 50px
+    margin-bottom: 50px
+    .schedule-date
+      font-size: 72px
+      display: block
+      font-weight: bold
+      color: #ed145b
+      margin-bottom: 50px
+      span
+        color: #000000
+        font-size: 18px
+        display: block
+
+    .table-header
+      margin-bottom: 15px
+    .table
+      border-bottom: 1px solid #f1f1f1
+      border-collapse: collapse
+      border-spacing: 0
+      font-size: 14px
+      line-height: 2
+      margin: 0 0 100px
+      thead
+        border-top: 1px solid #e5e5e5
+      tbody
+        background-color: #f9f9f9
+      tr
+        transition: 300ms
+        -webkit-transition: 300ms
+        -moz-transition: 300ms
+        -o-transition: 300ms
+        -ms-transition: 300ms
+        th
+          font-family: "Gotham-Medium"
+          background-color: #f0f0f0
+          padding: 15px 30px
+          font-size: 14px
+          text-transform: uppercase
+          vertical-align: middle
+        td
+          padding: 15px 30px
+          font-size: 14px
+          vertical-align: middle
+
+
+@media (max-width: 1250px)
+  #program
+    margin-top: 141px
+
+@media (max-width: $screen-lg)
+  #program
+    margin-top: 121px
+
+@media (max-width: $screen-sm-max)
+  #program
+    margin-top: 111px
+
+@media (max-width: $screen-xs-max)
+  #program
+    .container
+      table
+        tr
+          td
+            float: left
+            width: 50%
+
+@media (max-width: 568px)
+  #program
+    .container
+      padding-left: 30px
+      padding-right: 30px
+      table
+        tr
+          td
+            width: 100%
+
+
+
