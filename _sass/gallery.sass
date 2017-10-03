@@ -9,29 +9,25 @@
 
 
 #gallery
+  background-color: #f4f4f4
   min-height: 100vh
   margin-top: 206px
   position: relative
   padding-bottom: 50px
-  .banner-section
-    background-image: url("/img/about-bg.jpg")
-    background-size: cover
-    background-position: center center
-    height: 250px
-    margin-bottom: 30px
-  .content-section
-    margin-top: 30px
-    margin-bottom: 30px
-    .content-header
+  .section-header
+    padding-top: 50px
+    padding-bottom: 30px
+    .header
       font-family: "Gotham-Medium"
-      font-size: 18px
-      margin-bottom: 10px
-    .content-description
-      margin-bottom: 10px
-      line-height: 24px
+      text-align: center
+      font-size: 36px
+      margin-top: 15px
+      margin-bottom: 15px
+      text-align: center
+  .container
+    max-width: 970px
 
-    .content-link
-      display: block
+
 
 @media (max-width: 1250px)
   #gallery
@@ -42,11 +38,18 @@
 @media (max-width: $screen-sm-max)
   #gallery
     margin-top: 111px
+    .section-header
+      .header
+        font-size: 28px
+
 
 @media (max-width: 568px)
   #gallery
     .container
-      padding-left: 30px
-      padding-right: 30px
+      padding-left: 15px
+      padding-right: 15px
+
+
+
 
 
