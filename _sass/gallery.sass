@@ -3,16 +3,18 @@
   padding-left: 0
   padding-right: 0
 
-.text-medium
-  font-family: "Gotham-Medium"
+.stylized
+  font-family: 'Dancing-Script-Regular','sans-serif'
 
-#information
+
+
+#gallery
   min-height: 100vh
   margin-top: 206px
   position: relative
   padding-bottom: 50px
   .banner-section
-    background-image: url("/img/information-bg.jpg")
+    background-image: url("/img/about-bg.jpg")
     background-size: cover
     background-position: center center
     height: 250px
@@ -28,33 +30,23 @@
       margin-bottom: 10px
       line-height: 24px
 
+    .content-link
+      display: block
+
 @media (max-width: 1250px)
-  #information
+  #gallery
     margin-top: 141px
 
 
+
 @media (max-width: $screen-sm-max)
-  #information
+  #gallery
     margin-top: 111px
 
-@media (max-width: $screen-xs-max)
-  #information
-    .container
-      table
-        tr
-          td
-            float: left
-            width: 50%
-
 @media (max-width: 568px)
-  #information
+  #gallery
     .container
       padding-left: 30px
       padding-right: 30px
-      table
-        tr
-          td
-            width: 100%
-
 
 
