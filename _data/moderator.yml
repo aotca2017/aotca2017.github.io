@@ -1,0 +1,40 @@
+- id: 1
+  name: "ALEXANDER B. CABRERA"
+  position-list:
+  - position: "Chairman and Senior Partner, Isla Lipana & Co./PwC Philippines"
+  image: "moderator1"
+
+- id: 2
+  name: "Victor de Dios"
+  position-list:
+  - position: "Principal, Indirect Tax – Customs and Global Trade"
+  - position: "SGV & Company"
+  image: "moderator2"
+
+- id: 3
+  name: "Rina Manuel "
+  position-list:
+  - position: "Vice-President/Head, Tax Department"
+  - position: "Smart Communications, Inc."
+  image: "moderator3"
+
+- id: 4
+  name: "Benedict Tugonon"
+  position-list:
+  - position: "Head of the Tax Department"
+  - position: "Quiason Makalintal Barot Torres Ibarra Sison & Damaso"
+  image: "moderator4"
+
+- id: 5
+  name: "Eleanor L. Roque"
+  position-list:
+  - position: "Head, Tax Advisory & Compliance Division"
+  - position: "P&A Grant Thornton"
+  image: "moderator5"
+
+- id: 6
+  name: "Maria Lourdes P. Lim"
+  position-list:
+  - position: "Tax Managing Partner, Isla Lipana & Co./PwC"
+  - position: "President, Tax Management Association of the Philippines "
+  image: "moderator6"

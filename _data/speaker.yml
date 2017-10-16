@@ -1,0 +1,145 @@
+- id: 1
+  name: "David Russell"
+  position-list:
+  - position: "Past President - AOTCA"
+  image: "davidRussel"
+
+- id: 2
+  name: "Carlo L. Navarro"
+  position-list:
+  - position: "Deloitte SEA Transfer Pricing Leader"
+  - position: "Partner - Deloitte SEA Transfer Pricing Center"
+  image: "carlo"
+
+
+- id: 3
+  name: "Paul Lau"
+  position-list:
+  - position: "Tax Partner"
+  - position: "PricewaterhouseCoopers Singapore "
+  - position: "Accredited Tax Advisor (Income Tax)"
+  - position: "Singapore Institute of Accredited Tax Professionals"
+  image: "speaker2"
+
+- id: 4
+  name: "Peter Su"
+  position-list:
+  - position: "Partner/Managing Director, PwC Taiwan"
+  image: "speaker3"
+
+- id: 5
+  name: "Thinker Chen"
+  position-list:
+  - position: "Transfer Pricing, Tax Director"
+  - position: "PwC China, Shanghai"
+  image: "speaker4"
+
+- id: 6
+  name: "Gregory A. Lamont"
+  position-list:
+  - position: "Retired Partner"
+  - position: "PwC Thailand/United States"
+  image: "speaker5"
+
+- id: 7
+  name: "Michael Cadesky"
+  position-list:
+  - position: "Managing Partner, Cadesky Tax"
+  image: "speaker6"
+
+- id: 8
+  name: "Yeo Kai Eng"
+  position-list:
+  - position: "Partner Ernst & Young Solutions LLP, Singapore"
+  image: "speaker7"
+
+- id: 9
+  name: "Ruston Tambunan"
+  position-list:
+  - position: "Managing Partner"
+  - position: "CITASCO – Registered Tax Consultants, Jakarta"
+  image: "speaker8"
+
+- id: 10
+  name: "Tracy Rens"
+  position-list:
+  - position: "Partner, Deloitte Sydney - Business Tax Advisory"
+  - position: "Vice President, The Tax Institute"
+  image: "speaker9"
+
+- id: 11
+  name: "Ma. Teresa S. Habitan"
+  position-list:
+  - position: "Assistant Secretary, Department of Finance"
+  image: "speaker10"
+
+- id: 12
+  name: "Rock Zhao"
+  position-list:
+  - position: "Partner, RSM China Certified Public Accountants"
+  image: "speaker12"
+
+- id: 13
+  name: "Takeshi Ogura"
+  position-list:
+  - position: ""
+  image: "speaker13"
+
+- id: 14
+  name: "Lam Le"
+  position-list:
+  - position: "Partner, Tax and Consulting Services"
+  - position: "RSM Vietnam"
+  image: "speaker14"
+
+- id: 15
+  name: "Kijun Kim"
+  position-list:
+  - position: "Tax Manager, P&G Korea"
+  image: "speaker15"
+
+- id: 16
+  name: "K. Sandra Segaran"
+  position-list:
+  - position: "General Manager, Petronas"
+  image: "speaker16"
+
+- id: 17
+  name: "Enkhzul Jambal"
+  position-list:
+  - position: "Senior Tax Consultant, PwC Mongolia"
+  image: "speaker17"
+
+- id: 18
+  name: "Jeremy Choi"
+  position-list:
+  - position: "Tax Partner, PwC Hong Kong"
+  image: "speaker19"
+
+- id: 19
+  name: "Dr. Shih Chou, Huang "
+  position-list:
+  - position: "Associate Professor - Faculty of Tax Administration"
+  - position: "National Taipei University of Business"
+  image: "speaker20"
+
+- id: 20
+  name: "Teresa Chua"
+  position-list:
+  - position: "Group Manager, Asia Tax"
+  - position: "Procter & Gamble"
+  image: "speaker21"
+
+- id: 21
+  name: "Marissa O. Cabreros"
+  position-list:
+  - position: "Assistant Commisioner - Bureau of Internal Revenue"
+  image: "speaker22"
+
+- id: 22
+  name: "Chang Kyu Lee"
+  position-list:
+  - position: "President, Korean Association of Certified Public Tax Accountants "
+  image: "speaker23"
+
+

@@ -23,3 +23,6 @@
 
 - name: Contact Us
   url: "/contact"
+
+- name: Speaker
+  url: "/speaker"

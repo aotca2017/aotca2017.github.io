@@ -1,0 +1,35 @@
+
+<div class="container">
+   <div id="speaker-section">
+       <div class="section-header">
+           <h2 class="header">Conference Speakers</h2>
+       </div>
+       <div class="speaker-container clearfix">
+           {% for speaker in site.data.speaker %}
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 speaker-list">
+               <img src="/img/speaker/{{ speaker.image }}.png" class="img-responsive center-block speaker-image" />
+               <span class="speaker-name">{{ speaker.name }}</span>
+               {% for positionList in speaker.position-list %}
+               <span class="speaker-position">{{ positionList.position }}</span>
+               {% endfor %}
+           </div>
+           {% endfor %}
+       </div>
+   </div>
+   <div id="moderator-section">
+       <div class="section-header">
+           <h2 class="header">Moderators</h2>
+       </div>
+       <div class="moderator-container clearfix">
+           {% for moderator in site.data.moderator %}
+           <div class="col-md-3 moderator-list">
+               <img src="/img/moderator/{{ moderator.image }}.png" class="img-responsive center-block moderator-image" />
+               <span class="moderator-name">{{ moderator.name }}</span>
+               {% for positionList in moderator.position-list %}
+               <span class="moderator-position">{{ positionList.position }}</span>
+               {% endfor %}
+           </div>
+           {% endfor %}
+       </div>
+   </div>
+</div>

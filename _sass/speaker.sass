@@ -1,0 +1,128 @@
+//Global
+.no-gutter
+  padding-left: 0
+  padding-right: 0
+
+.stylized
+  font-family: 'Dancing-Script-Regular','sans-serif'
+
+
+
+#speaker
+  background-color: #f4f4f4
+  min-height: 100vh
+  margin-top: 206px
+  position: relative
+  padding-top: 50px
+  padding-bottom: 50px
+  #speaker-section
+    position: relative
+    .section-header
+      margin-bottom: 30px
+      .header
+        font-family: "Gotham-Medium"
+        text-align: center
+        font-size: 36px
+        margin-top: 15px
+        margin-bottom: 15px
+    .speaker-container
+      position: relative
+      .speaker-list
+        margin-top: 30px
+        margin-bottom: 30px
+        min-height: 410px
+        .speaker-image
+          max-width: 90%
+        .speaker-name
+          text-align: center
+          display: block
+          font-family: "Gotham-Medium"
+          font-size: 16px
+          margin-top: 15px
+          margin-bottom: 10px
+        .speaker-position
+          margin-top: 5px
+          font-size: 14px
+          text-align: center
+          display: block
+
+  #moderator-section
+    position: relative
+    .section-header
+      margin-bottom: 30px
+      .header
+        font-family: "Gotham-Medium"
+        text-align: center
+        font-size: 36px
+        margin-top: 15px
+        margin-bottom: 15px
+    .moderator-container
+      position: relative
+      .moderator-list
+        margin-top: 30px
+        margin-bottom: 30px
+        min-height: 410px
+        .moderator-image
+          max-width: 90%
+        .moderator-name
+          margin-top: 15px
+          margin-bottom: 10px
+          text-align: center
+          display: block
+          font-family: "Gotham-Medium"
+          font-size: 16px
+        .moderator-position
+          margin-top: 5px
+          font-size: 14px
+          text-align: center
+          display: block
+
+
+@media (max-width: 1250px)
+  #speaker
+    margin-top: 141px
+
+
+@media (max-width: $screen-sm-max)
+  #speaker
+    margin-top: 111px
+
+@media (max-width: $screen-xs-max)
+  #speaker
+    #speaker-section
+      .speaker-container
+        .speaker-list
+          min-height: 0
+          .speaker-image
+            max-width: 60%
+            min-width: 60%
+    #moderator-section
+      .moderator-container
+        .moderator-list
+          min-height: 0
+          .moderator-image
+            max-width: 60%
+            min-width: 60%
+
+@media (max-width: 568px)
+  #speaker
+    .container
+      padding-left: 15px
+      padding-right: 15px
+      #speaker-section
+        .speaker-container
+          .speaker-list
+            min-height: 0
+            .speaker-image
+              max-width: 80%
+              min-width: 80%
+      #moderator-section
+        .moderator-container
+          .moderator-list
+            min-height: 0
+            .moderator-image
+              max-width: 80%
+              min-width: 80%
+
+
+
