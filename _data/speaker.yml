@@ -117,26 +117,33 @@
   image: "speaker19"
 
 - id: 19
+  name: "Maria Lourdes P. Lim"
+  position-list:
+  - position: "Tax Managing Partner, Isla Lipana & Co./PwC"
+  - position: "President, Tax Management Association of the Philippines "
+  image: "moderator6"
+
+- id: 20
   name: "Dr. Shih Chou, Huang "
   position-list:
   - position: "Associate Professor - Faculty of Tax Administration"
   - position: "National Taipei University of Business"
   image: "speaker20"
 
-- id: 20
+- id: 21
   name: "Teresa Chua"
   position-list:
   - position: "Group Manager, Asia Tax"
   - position: "Procter & Gamble"
   image: "speaker21"
 
-- id: 21
+- id: 22
   name: "Marissa O. Cabreros"
   position-list:
   - position: "Assistant Commisioner - Bureau of Internal Revenue"
   image: "speaker22"
 
-- id: 22
+- id: 23
   name: "Chang Kyu Lee"
   position-list:
   - position: "President, Korean Association of Certified Public Tax Accountants "
