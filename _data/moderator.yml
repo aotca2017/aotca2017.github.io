@@ -1,8 +1,43 @@
 - id: 1
-  name: "ALEXANDER B. CABRERA"
+  name: "Alexander B. Cabrera"
   position-list:
   - position: "Chairman and Senior Partner, Isla Lipana & Co./PwC Philippines"
   image: "moderator1"
+  profile-list:
+  - profile: "Chairman and Senior Partner, Isla Lipana & Co./PwC Philippines; Board member,
+              PwC’s Southeast Asia Regional Consulting practice; Founder and Managing
+              Partner, Cabrera & Company Law; Columnist, The Philippine STAR (“as easy
+              as ABC” column published every Sunday); Co-head, the Developmental Social
+              Enterprise Awards, jointly presented by PwC Philippines and BCYF; Head, the
+              Philippine Gems tourism campaign project and Chair, Franchise Excellence
+              Awards Committee, the Philippine Franchise Association."
+  - profile: "<b class='profile-header'>Awards:</b>"
+  - profile: "in Integrity by Integrity Initiative, organized by the Makati Business Club and
+              European Chamber of Commerce"
+  - profile: "- His Philippine STAR column “as easy as ABC” is a finalist under the “Best
+              Business Column” category of the 38th Catholic Mass Media Awards in 2016
+              (discusses business and national issues with emphasis on Filipino values)"
+  - profile: "- His Philippine Gems campaign was one of five Gold finalists in the 2014 AsiaPacific
+              SABRE Awards (promotion of emerging tourist destinations in the
+              country)"
+  - profile: "- His Philippine Resiliency: a Gem Uncovered project won an Asian Publishing
+              Award for the firm in 2010 (top CEOs’ views on why the Philippines and the
+              Filipino are resilient)"
+  - profile: "- Outstanding CPA in Public Practice Award, the Philippine Institute of Certified
+              Public Accountants (PICPA), 2015"
+  - profile: "- Young Achiever in Public Practice Award, PICPA, 1998"
+  - profile: "- Outstanding Alumnus, PSBA, 2006"
+  - profile: "<b class='profile-header'>Current projects for the country:</b>"
+  - profile: "- Reimagining VisMin Booklets are unique, all inclusive investment guides for
+              the fastest-growing cities in the region, namely Bacolod, Cagayan de Oro, Cebu,
+              Davao, General Santos City, and Iloilo"
+  - profile: "- Photo story contest is a value formation initiative to help raise the awareness
+              among Filipino college and high school students of our timeless values as a
+              people"
+  - profile: "- Philippine Gems of VisMin coffee table book is a literature on the top 12 less
+              known tourist destinations in the VisMin."
+  - profile: "- My Philippine Experience is a collection of anecdotes from foreign tourists
+              who visited and fell in love with our country"
 
 - id: 2
   name: "Victor de Dios"
@@ -10,6 +45,21 @@
   - position: "Principal, Indirect Tax – Customs and Global Trade"
   - position: "SGV & Company"
   image: "moderator2"
+  profile-list:
+    - profile: "Vic is a Tax Principal in SGV & Co. He is lawyer and has been with the Firm
+                for 11 years. His area of expertise is Indirect Tax – Customs and Global
+                Trade and gives tax and customs advice to leading multinationals in
+                various industries."
+    - profile: "<b class='profile-header'>OTHER KEY QUALIFICATIONS:</b>"
+    - profile: "Serves as SGV in-house lecturer on “Introduction to the Bureau of
+                Customs Organization and Procedures”, “Handling Post-Entry Audits”
+                and “Annual Customs Updates”"
+    - profile: "Resource speaker on “Handling BOC Audits” to the Philippine
+                Institute of Certified Public Accountants, various industry groups and
+                professional organizations"
+    - profile: "Contributor of customs-related articles in BusinessWorld, a Philippine
+                business newspaper of general circulation"
+
 
 - id: 3
   name: "Rina Manuel "
@@ -17,6 +67,33 @@
   - position: "Vice-President/Head, Tax Department"
   - position: "Smart Communications, Inc."
   image: "moderator3"
+  profile-list:
+      - profile: "Rina Manuel has been an experienced corporate tax professional for
+                  the past 23 years. She specializes in Telecom taxation, Tax planning and
+                  strategy, Tax risk management, National and local tax compliance, and
+                  Financial reporting of taxes."
+      - profile: "She is also a passionate tax reform advocate. Together with the Tax
+                  Management Association of the Philippines (TMAP), she has collaborated
+                  with legislators, tax administrators, academics, business groups/
+                  professional groups and various individual taxpayer groups in pushing for a
+                  simpler, fairer and more equitable Philippine tax system."
+      - profile: "To broaden her technical skills in tax advocacy matters, she attended the
+                  Comparative Tax Policy and Administration Executive Education Program
+                  at the Harvard Kennedy School. She also regularly attends international tax
+                  conferences to update her on global tax developments."
+      - profile: "She started her career with the SGV & Co. Tax Division as a tax compliance
+                  auditor before moving to Smart Communications, Inc. (SMART) in 1996
+                  when it was still a new player in the industry. Since then, she has developed
+                  its corporate tax practice, coupled with the company’s unprecedented
+                  growth."
+      - profile: "In SMART, she is responsible for the over-all Tax management of the PLDT
+                  Wireless and Digital group of companies. Through the years, SMART has
+                  consistently been recognized as Top Corporate Taxpayer by the BIR and
+                  Local Government Units (LGUs)."
+      - profile: "Rina is a well-recognized leader in her profession. After being part of the
+                  TMAP Board of Directors since 2008, she was elected TMAP President in
+                  2014 and led key tax advocacies, such as Tax Reform Now and VAT Refund
+                  issues."
 
 - id: 4
   name: "Benedict Tugonon"
@@ -24,6 +101,25 @@
   - position: "Head of the Tax Department"
   - position: "Quiason Makalintal Barot Torres Ibarra Sison & Damaso"
   image: "moderator4"
+  profile-list:
+      - profile: "Benedict Tugonon is the Head of the Tax Department of the Law
+                  Firm of Quiason Makalintal Barot Torres Ibarra Sison & Damaso.
+                  He earned his bachelors degree in Law, and also in Philosophy and
+                  Letters, from San Beda College Manila."
+      - profile: "He joined the law firm in February 2000, and has since undergone
+                  an extensive and hands-on training in tax advocacy, tax audits,
+                  and tax litigation."
+      - profile: "He has advised numerous clients on the tax aspect of major
+                  transactions, including property acquisitions and transfers,
+                  corporate mergers and reorganization, tax audit, and estate tax
+                  planning. He periodically conducts tax seminars and lectures to
+                  tax professionals and clients. "
+      - profile: "In 2016, he served as the President of the Tax Management
+                  Association of the Philippines (TMAP). During his term as TMAP
+                  President, he initiated the TMAP National Elections Tax Policy
+                  Survey, which was instrumental in making Tax Reform a key
+                  election issue during the 2016 Philippine National Elections."
+
 
 - id: 5
   name: "Eleanor L. Roque"
@@ -31,4 +127,19 @@
   - position: "Head, Tax Advisory & Compliance Division"
   - position: "P&A Grant Thornton"
   image: "moderator5"
+  profile-list:
+      - profile: "<b class='profile-header'>WORK EXPERIENCE:</b>"
+      - profile: "Lea has been in the tax practice for about 21 years. She was posted in
+                  Grant Thornton (Vietnam) Ltd, where she was the Tax Director for two
+                  years until she joined P&A in 2009."
+      - profile: "Lea has extensive experience in providing tax advisory services on direct
+                  international taxation, conducting studies on appropriate investment
+                  vehicles, and recommending the most tax efficient corporate structures
+                  for investments and acquisitions."
+      - profile: "She has also been involved in tax due diligence work in connection with
+                  M&A activities; personal income tax advisory and planning; preparation
+                  of various opinions and analyses of tax issues; and dissemination of tax
+                  updates through the conduct of tax seminars."
+      - profile: "<b class='profile-header'>SECTOR EXPERIENCE</b>"
+      - profile: "BPOs, real estate, media, banks, mining, and insurance"
 
