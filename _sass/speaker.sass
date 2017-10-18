@@ -17,6 +17,7 @@
   padding-bottom: 50px
   #speaker-section
     position: relative
+    margin-bottom: 60px
     .section-header
       margin-bottom: 30px
       .header
@@ -28,9 +29,12 @@
     .speaker-container
       position: relative
       .speaker-list
+        cursor: pointer
+        color: #333333
         margin-top: 30px
         margin-bottom: 30px
-        min-height: 410px
+        outline: none
+        text-decoration: none
         .speaker-image
           max-width: 90%
         .speaker-name
@@ -40,13 +44,9 @@
           font-size: 16px
           margin-top: 15px
           margin-bottom: 10px
-        .speaker-position
-          margin-top: 5px
-          font-size: 14px
-          text-align: center
-          display: block
 
   #moderator-section
+    margin-bottom: 60px
     position: relative
     .section-header
       margin-bottom: 30px
@@ -59,23 +59,79 @@
     .moderator-container
       position: relative
       .moderator-list
+        cursor: pointer
+        color: #333333
         margin-top: 30px
         margin-bottom: 30px
-        min-height: 410px
+        outline: none
+        text-decoration: none
         .moderator-image
           max-width: 90%
         .moderator-name
-          margin-top: 15px
-          margin-bottom: 10px
           text-align: center
           display: block
           font-family: "Gotham-Medium"
           font-size: 16px
-        .moderator-position
-          margin-top: 5px
-          font-size: 14px
-          text-align: center
-          display: block
+          margin-top: 15px
+          margin-bottom: 10px
+
+  .modal
+    .modal-dialog
+      width: 970px
+      .modal-content
+        .close-modal
+          position: absolute
+          top: 15px
+          right: 25px
+          width: 40px
+          height: 40px
+          background-color: transparent
+          cursor: pointer
+          z-index: 3
+          transition: all 300ms ease-in-out
+          .lr
+            z-index: 1051
+            width: 1px
+            height: 40px
+            margin-left: 35px
+            background-color: #222
+            -webkit-transform: rotate(45deg)
+            -ms-transform: rotate(45deg)
+            transform: rotate(45deg)
+            .rl
+              z-index: 1052
+              width: 1px
+              height: 40px
+              background-color: #222
+              -webkit-transform: rotate(90deg)
+              -ms-transform: rotate(90deg)
+              transform: rotate(90deg)
+
+        .modal-body
+          margin-top: 30px
+          margin-bottom: 30px
+          .right-section
+            .person-name
+              margin-top: 15px
+              margin-bottom: 10px
+              display: block
+              font-family: "Gotham-Medium"
+              font-size: 22px
+            .person-position
+              margin-bottom: 5px
+              font-size: 15px
+              display: block
+              font-family: "Gotham-Medium"
+            .profile-container
+              margin-top: 15px
+              .person-profile
+                margin-bottom: 10px
+                line-height: 25px
+                .profile-header
+                  font-style: normal
+                  font-family: "Gotham-Medium"
+
+
 
 
 @media (max-width: 1250px)
