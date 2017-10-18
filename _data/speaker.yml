@@ -3,6 +3,42 @@
   position-list:
   - position: "Past President - AOTCA"
   image: "davidRussel"
+  profile-list:
+    - profile: "David commenced legal practice in 1974. He is admitted to practise in Australia,
+                England and Wales (Lincoln’s Inn), the Courts of the Dubai International
+                Financial Centre, New York (as a Legal Consultant), the Singapore International
+                Commercial Court, New Zealand and Papua New Guinea."
+    - profile: "He was appointed Queen’s Counsel in 1986"
+    - profile: "He currently practises in Dubai, London, New York and Abu Dhabi (Outer
+                Temple Chambers), Sydney (Ground Floor Wentworth Chambers) and Brisbane
+                (Sir Harry Gibbs Chambers) and is an associate member of chambers in
+                Auckland (Shortland Chambers). He has acted for Commonwealth and State
+                Governments as well as individuals and corporations. David was President of
+                the Taxation Institute of Australia from 1993 to 1995, and of the Asia Oceania
+                Tax Consultants’ Association from 1996 to 2000."
+    - profile: "He has lectured at the University of Sydney for the Master of Taxation course,
+                the University of Queensland for the Master of Laws course and served as an
+                Adjunct Professor of the University of Queensland. He is the co-editor of the
+                Oxford University Press Journal Trusts & Trustees."
+    - profile: "He is Chairman of the STEP International Client Special Interest Group, a director
+                of STEP and a member of its World Wide Council and various Committees, a cochair
+                of the United Arab Emirates Chapter of the International Section of the
+                New York State Bar Association, and a member of the Executive Committee
+                of the Section, an Academician of The International Academy of Estate and
+                Trust Law, a Member of the Middle East and North Africa Branch Committee of
+                the Chartered Institute of Taxation (UK), a member of the Worshipful Company
+                of Tax Advisers, a Freeman of the City of London and an Honorary Member
+                of the Taxation Institute of Hong Kong. In 2016 he chaired the DIFC’s Wealth
+                Management Review Working Group."
+    - profile: "David is listed in the Taxation Category in the Australian Financial Review/Best
+                Lawyers review of the Australian Legal Profession in 2008 and all later years
+                and in 2014 was the Tax Institute’s Chartered Tax Adviser of the Year. In 2010 he
+                was awarded the Order of the Rising Sun (with Gold Rays and Neck Ribbon) for
+                his services to Australia-Japan relations. In 2012 he was appointed a Member
+                of the Order of Australia for, among other things, “service … to taxation law and
+                legal education.” In 2017 he was recognised by Legal Week and The American
+                lawyer as part of the Private Client Global Elite."
+
 
 - id: 2
   name: "Carlo L. Navarro"
@@ -10,6 +46,25 @@
   - position: "Deloitte SEA Transfer Pricing Leader"
   - position: "Partner - Deloitte SEA Transfer Pricing Center"
   image: "carlo"
+  profile-list:
+      - profile: "Carlo L. Navarro is currently Deloitte’s SEA Transfer Pricing Leader and
+                  heads Deloitte’s SEA Transfer Pricing Centre located in Manila, Philippines.
+                  He specializes in transfer pricing, international corporate restructuring and
+                  planning, cross-border taxation, and tax-effective supply chain transformations."
+      - profile: "Before joining Deloitte, Carlo led transfer pricing and international tax practices
+                  of Big 4 firms around Southeast Asia. He has over 20 years of experience
+                  working in various jurisdictions in Southeast Asia as an International Tax and
+                  Transfer Pricing practitioner, giving him practical experience in dealing with
+                  Tax Authorities of these countries."
+      - profile: "He has assisted clients in various phases of transfer pricing engagements, from
+                  planning, documentation and audit defense to negotiating APAs and MAPs.
+                  He has an excellent reputation in handling transfer pricing audits and bilateral
+                  negotiations."
+      - profile: "As a recognized subject matter expert, he has published various articles in
+                  international tax journals, covering issues on permanent establishments,
+                  taxation and transfer pricing aspects of business restructuring, and the latest
+                  developments in the area of transfer pricing in Southeast Asia."
+
 
 
 - id: 3
@@ -20,12 +75,50 @@
   - position: "Accredited Tax Advisor (Income Tax)"
   - position: "Singapore Institute of Accredited Tax Professionals"
   image: "speaker2"
+  profile-list:
+      - profile: "With over 20 years of tax experience, Paul Lau is a tax partner at
+                  PricewaterhouseCoopers (PwC) Singapore and he also plays an active
+                  role at the Singapore Institute of Accredited Tax Professionals as the
+                  chair of its Tax and Levies Committee."
+      - profile: "His in-depth tax experience includes having advised clients on tax risk
+                  management and governance framework, mergers and acquisitions,
+                  corporate restructuring, asset securitisation, capital market instruments,
+                  tax sparing, real estate finance and transfer pricing."
+      - profile: "At PwC Singapore, besides being the Banking and Capital Markets Tax
+                  Leader, Paul also heads up the Tax Technical and Policy unit where he
+                  provides guidance on interpretation of tax laws for the firm. He is also
+                  a member of PwC’s global financial services transfer pricing network
+                  where he is involved in rendering tax and transfer pricing advice to
+                  banks, investment funds and treasury centres in structuring cross border
+                  transactions."
+      - profile: "Paul has written widely on the taxation of financial instruments and
+                  financial institutions. Among others, he co-authored the capital market
+                  transactions chapter in the leading Singapore taxation reference text
+                  entitled The Law and Practice of Singapore Income Taxation (Singapore:
+                  LexisNexis, 2013), as well as the taxation chapter in Theory and Practice
+                  of Islamic Finance (Singapore: Saw Centre for Financial Studies, 2008)."
+
 
 - id: 4
   name: "Peter Su"
   position-list:
   - position: "Partner/Managing Director, PwC Taiwan"
   image: "speaker3"
+  profile-list:
+      - profile: "<b class='profile-header'>Professional Certificate:</b>"
+      - profile: "Certified Public Accountant, California, USA <br/> Attorney, Texas Bar, USA"
+      - profile: "<b class='profile-header'>Education:</b>"
+      - profile: "University of Houston Law Center"
+      - profile: "San Diego State University, Bachelor in Accounting"
+      - profile: "<b class='profile-header'>Expertise:</b>"
+      - profile: "Cross-border investment structure and tax planning/Cross border financial structure and shareholder equity tax consultation and planning"
+      - profile: "Global Transaction Models Tax Consulting and Planning"
+      - profile: "Intellectual property tax planning"
+      - profile: "Tax treaty consultation and application"
+      - profile: "Foreign corporation establishment and consultation"
+      - profile: "Global transfer pricing strategy formulation"
+      - profile: "Tax implication analysis and permanent establishments"
+      - profile: "Tax structure consultation on EU investment and distribution system design"
 
 - id: 5
   name: "Thinker Chen"
@@ -33,6 +126,33 @@
   - position: "Transfer Pricing, Tax Director"
   - position: "PwC China, Shanghai"
   image: "speaker4"
+  profile-list:
+      - profile: "<b class='profile-header'>Background:</b> "
+      - profile: "Thinker is a Director of Transfer Pricing (“TP”) services in PwC
+                                    China based in Shanghai. Thinker has joined PwC tax team
+                                    for more than 10 years. Thinker has accumulated extensive
+                                    tax experiences in advising both MNCs and China domestic
+                                    companies."
+
+      - profile: "<b class='profile-header'>Relevant experience:</b>"
+      - profile: "Thinker joined PwC Taiwan at first, when working in Taiwan, he
+                    provided domestic tax and international tax services as well as
+                    TP services to lots of MNC and Headquarters clients."
+      - profile: "Thinker joined PwC China TP team in Shanghai from 2008 .
+                    Within this period, Thinker involved in and handled lots of TPD
+                    projects, APA projects and TP defense projects."
+      - profile: "Thinker also worked with international tax team and provide
+                    services for lots of MNC and Headquarters regarding crossborder
+                    tax planning such as holding structure, transaction
+                    model planning, global TP planning, and tax defense services."
+
+      - profile: "<b class='profile-header'>Qualifications:</b>"
+      - profile: "Thinker graduated from Taiwan University majored in
+                  accounting, he also obtained master degree of accounting
+                  from Taiwan Cheng-Chi University."
+      - profile: "Thinker has China Certified Tax Agent(CTA),Taiwan Certified
+                  Public Accountant (CPA) and Certified Internal Auditor (CIA)
+                  license."
 
 - id: 6
   name: "Gregory A. Lamont"
@@ -40,18 +160,82 @@
   - position: "Retired Partner"
   - position: "PwC Thailand/United States"
   image: "speaker5"
+  profile-list:
+      - profile: "Greg was an international tax partner with PricewaterhouseCoopers
+                  based in New York for over 30 years. He was the global lead tax
+                  partner for some of the firm’s major multinational clients including
+                  Philip Morris International, Merck and Colgate Palmolive. For
+                  the last 8 years he was a tax partner with PwC Thailand based in
+                  Bangkok where he advised inbound investors into Thailand and
+                  outbound investors into the U.S. Greg retired from PwC in July
+                  2017 and now advises select clients on Thai and U.S. tax matters."
+      - profile: "Greg has a BBS in accounting and a MS in tax from Pace University.
+                  He is a U.S. CPA."
 
 - id: 7
   name: "Michael Cadesky"
   position-list:
   - position: "Managing Partner, Cadesky Tax"
   image: "speaker6"
+  profile-list:
+      - profile: "<b class='profile-header'>Expertise:</b>"
+      - profile: "Canadian and international tax, foreign investment into Canada, international
+                  acquisitions, tax treaties, Canada/U.S. tax, estate planning, transfer pricing, tax
+                  disputes. 25 years’ experience in Canadian and international taxation. Familiar
+                  with tax systems of more than 30 countries."
+      - profile: "<b class='profile-header'>Professional Highlights:</b>"
+      - profile: "Managing Partner, Cadesky Tax, Canadian and International Tax Specialists, Toronto"
+      - profile: "Chair, CPA Canada Tax Committee for Small and Medium‐Sized Enterprises"
+      - profile: "Chair, Lee, Cadesky & Company Limited, International Tax Consultants, Hong Kong"
+      - profile: "Elected Fellow of CPA Ontario (FCA Designation)"
+      - profile: "Past Governor, Canadian Tax Foundation"
+      - profile: "Chairman, Society of Trust and Estate Practitioners (STEP Worldwide), 2004—2006;"
+      - profile: "Chair, STEP Canada, 1998—2004; currently Vice President of STEP Worldwide"
+      - profile: "Recipient Geoffrey Shindler Award for Outstanding Contribution to the profession,
+                  2013, STEP’s highest award."
+      - profile: "Chairman, Tax Specialist Group (TSG), 1999—present"
+      - profile: "Chairman, International Tax Specialist Group (ITSG), 2005—present"
+      - profile: "Author of numerous papers on Canadian and international taxation, lecturer and
+                  media commentator on tax issues."
+      - profile: "Editor‐in‐Chief, Taxation of Real Estate in Canada (Carswell), co‐author, Trusts and
+                  International Tax Treaties(Tottel), Taxation at Death (Carswell), Towards Greater
+                  Fairness in Taxation, A Model Taxpayer Charter (IBFD)"
+      - profile: "Frequent speaker at professional seminars in Canada, the Caribbean, Europe, and Asia"
+      - profile: "Advised on tax policy and administration to Minister of National Revenue, Auditor
+                  General, Department of Finance, Canada Revenue Agency and several
+                  foreign governments"
+      - profile: "Board member, Asia Oceania Tax Consultants Association (AOTCA) and STEP
+                  USA"
+
 
 - id: 8
   name: "Yeo Kai Eng"
   position-list:
   - position: "Partner Ernst & Young Solutions LLP, Singapore"
   image: "speaker7"
+  profile-list:
+      - profile: "<b class='profile-header'>Background:</b>"
+      - profile: "Kai Eng is a Partner specialising in GST at Ernst & Young Solutions LLP,
+                  Singapore"
+      - profile: "He has over 25 years of experience in the area of tax compliance,
+                  planning and consultancy work for local and multinational companies"
+      - profile: "<b class='profile-header'>Experience:</b>"
+      - profile: "Kai Eng is actively involved in GST process and internal control reviews
+                  under the Assisted Compliance Assurance Programme (ACAP),
+                  annual reviews of GST returns under the Assisted Self-Help Kit (ASK)
+                  Programme, GST advisory and planning assignments including
+                  assisting clients in negotiations with and obtaining rulings from the
+                  Inland Revenue Authority of Singapore (IRAS) on critical GST-specific
+                  transactions and refunds."
+      - profile: "He is a co-developer of the firm’s GST training materials and has
+                  conducted numerous external and customised training seminars and
+                  workshops. He also conducts GST lectures at the Tax Academy of
+                  Singapore."
+      - profile: "Over the past 2 years, he was actively involved in GST implementation
+                  projects in Malaysia and has also conducted GST training for the Royal
+                  Malaysian Customs Department (RMCD)."
+      - profile: "He is currently a member of the GST Committee with the Singapore
+                  Institute of Accredited Tax Professionals."
 
 - id: 9
   name: "Ruston Tambunan"
@@ -59,6 +243,24 @@
   - position: "Managing Partner"
   - position: "CITASCO – Registered Tax Consultants, Jakarta"
   image: "speaker8"
+  profile-list:
+      - profile: "<b class='profile-header'>Professional Qualification:</b>"
+      - profile: "Registered Tax Attorney"
+      - profile: "Registered Tax Consultant"
+      - profile: "Chartered Accountant "
+      - profile: "<b class='profile-header'>Teaching Experience:</b>"
+      - profile: "Guest Lecturer at Prasetiya Mulya Business School – Master
+                  Program Subject taught: Income Tax"
+      - profile: "Part-time Lecturer at University of Indonesia – Graduate
+                  Diploma in Taxation, Subject taught: International Taxation"
+      - profile: "<b class='profile-header'>Professional Membership:</b>"
+      - profile: "Head of International Relation & Globalization at Indonesian
+                  Tax Consultants Association (ITCA)"
+      - profile: "Member of International Tax Planning Association (ITPA)"
+      - profile: "Member of International Fiscal Association (IFA) – Indonesia
+                  Chapter"
+      - profile: "Board Member of Indonesian Accountants Association – Tax
+                  Compartment (IAA)"
 
 - id: 10
   name: "Tracy Rens"
@@ -66,24 +268,96 @@
   - position: "Partner, Deloitte Sydney - Business Tax Advisory"
   - position: "Vice President, The Tax Institute"
   image: "speaker9"
+  profile-list:
+      - profile: "Tracey is a partner in Deloitte Sydney’s Business Tax Advisory
+                  practice. With over 20 years’ experience in providing advice
+                  on all major areas of Australian tax including capital gains tax
+                  issues relating to acquisitions, divestments and restructures, loss
+                  management and integrity issues, capital allowance provisions,
+                  repatriation matters, tax consolidation and IFRS. She has a
+                  reputation for first class client service, providing pro-active and
+                  practical advice, and managing highly complex assignments."
+      - profile: "Tracey is a Chartered Tax Advisor of The Tax Institute and Affiliate
+                  of the Institute of Chartered Accountants. She is currently the
+                  Vice President of The Tax Institute as well as serving on a number
+                  of national and NSW committees and has made numerous
+                  presentations on corporate and international tax issues over the
+                  years. Tracey was also recognized in 2016 by the International Tax
+                  Review as one of Australia’s women in tax leaders."
 
 - id: 11
   name: "Ma. Teresa S. Habitan"
   position-list:
   - position: "Assistant Secretary, Department of Finance"
   image: "speaker10"
+  profile-list:
+      - profile: "<b class='profile-header'>COMMITTEE AND BOARD MEMBERSHIP:</b>"
+      - profile: "Chair and Focal Person, Extractive Industries Transparency Initiative MutliStakeholder
+                  Group"
+      - profile: "Chair, Extractive Industries Transparency Initiative Technical Working Group"
+      - profile: "Alternate for the Chair – National Power Board, Transco, PSALM, Investment
+                  Coordination Committee, Public-Private Partnership Governing Board"
+      - profile: "Alternate Member, National Development Company Board"
+      - profile: "Member, Agricultural Guarantee Fund Pool Governing Board"
+      - profile: "Member, Fiscal Incentives Review Board Technical Committee"
+      - profile: "Member, PFM Committee"
+      - profile: "Member, Industrial Guarantee and Loan Fund Technical Advisory Group"
+      - profile: "Member, National Biofuel Board"
+      - profile: "Member, National Agricultural and Fishery Council"
+      - profile: "Member, Executive Technical Board – Development Budget Coordination
+                  Committee"
+      - profile: "Member, Joint Department of Finance/Department of Budget and Management
+                  Committee on Cash Programming and Monitoring"
+      - profile: "Alternate Member, Technical Review of the National Action Plan on Youth
+                  Employment and Migration (NAP YEM)"
+      - profile: "Alternate Member, National Renewable Energy Board"
+      - profile: "Alternate Member, Philippines Development Forum Working Group on
+                  Decentralization and Local Government (PDF WG-DLG)"
+      - profile: "Alternate Member, Inter-Agency Committee on Tobacco (IAC-Tobacco)"
+      - profile: "Alternate Member, Board of Directors, 2005"
+      - profile: "Overseas Workers Welfare Administration"
+      - profile: "Member, Board of Trustee, 2003-2008"
+      - profile: "Metropolitan Waterworks and Sewerage Systems (MWSS)"
+      - profile: "Trustee, Philippine Economic Society (2010-2014)"
 
 - id: 12
   name: "Rock Zhao"
   position-list:
   - position: "Partner, RSM China Certified Public Accountants"
   image: "speaker12"
+  profile-list:
+      - profile: "Rock graduated from Law School of Peking University, obtained
+                  bachelor and master degree of law. He started his professional
+                  career in PwC Beijing office since 2002 and later served in
+                  Zhonghui Certified Tax Agents and Zhongrui Yuehua Tax Advisory
+                  Co., Ltd.."
+      - profile: "Rock is a member of China Institute of Certified Public Accountants
+                  (CICPA). He also obtained the qualification of China Nationwide
+                  Lawyer, Certified Tax Agent and the Chartered Financial Analyst
+                  (CFA). In 2013, he was elected as one of the elite talents of State
+                  Administration of Taxation (SAT)."
+      - profile: "In his professional life, Rock has gained extensive knowledge
+                  and experiences in China business and tax advisory services for
+                  clients in various industries, including securities company, car
+                  financing company, advertising company, energy company,
+                  real estate company, IT company, etc. He has been providing
+                  China business and tax consulting services in relation regarding
+                  cross-border investment, tax risk assessment, restructuring,
+                  M&A, tax planning, tax compliance, outsourcing services and
+                  other professional service areas in China. In particular , he is a
+                  tax advisor with strategic insights on double tax treaties, nonresident
+                  administration, international tax policies."
 
 - id: 13
   name: "Takeshi Ogura"
   position-list:
   - position: ""
   image: "speaker13"
+  profile-list:
+      - profile: "1980: Osaka National Tax Bureau"
+      - profile: "1997: Ogura Tax Accounting Office"
+      - profile: "2015: Director of Board, International Relations of Kinki Certified Public Tax Accountants’ Association"
+      - profile: "2015: Member of International Relations Dept., JFCPTAA"
 
 - id: 14
   name: "Lam Le"
@@ -91,30 +365,112 @@
   - position: "Partner, Tax and Consulting Services"
   - position: "RSM Vietnam"
   image: "speaker14"
+  profile-list:
+      - profile: "Lam has over 25 years of experience working with multinational
+                  corporations and Vietnam clientele in all business sectors. He
+                  specializes in providing clients in M&A advisory, local tax advice,
+                  custom duty review, outsourcing other compliance issues relating
+                  to inbound investment."
+      - profile: "Prior joining to RSM Vietnam, Lam has been with one of Big 4 for 11
+                  years, advising many multinational companies on their investment
+                  structuring, entry strategies, foreign investment regulations,
+                  international and local tax planning and compliance."
+      - profile: "Lam is currently in charge of the firm’s tax and consulting practice
+                  providing local tax and customs compliance, outsourcing and
+                  advisory services to foreign investors entering into and operating
+                  Vietnam. He has also represented various companies and industries
+                  in their representations to local authorities in matters relating to
+                  foreign investment and taxation policies and interpretations."
+      - profile: "Lam is currently the Board Executive of Vietnam Tax Consultants’
+                  Association."
 
 - id: 15
   name: "Kijun Kim"
   position-list:
   - position: "Tax Manager, P&G Korea"
   image: "speaker15"
+  profile-list:
+      - profile: "Kijun Kim is group manager in P&G’s Tax organization based in
+                  Korea. "
+      - profile: "He received bachelors degree in Accounting from Korea Kukmin
+                  University."
+      - profile: "He joined P&G in 1996, having experience of many aspects of
+                  taxation matters including Korea country Tax, Asia Transfer pricing,
+                  Business model and Corporate restructuring, Vietnam Customs
+                  engagement with USABC, Audit management, System changes,
+                  Compliance governance model design, etc. and now specializes
+                  in Indirect tax on VAT/GST and Customs valuation for P&G Asia
+                  region."
+      - profile: "He has delivered not only Tax technical trainings but general
+                  finance, accounting and other soft skills, and was awarded the
+                  best corporate trainer in P&G Korea."
 
 - id: 16
   name: "K. Sandra Segaran"
   position-list:
   - position: "General Manager, Petronas"
   image: "speaker16"
+  profile-list:
+      - profile: "K. Sandra Segaran is currently a General Manager (Group Tax) in
+                  Petronas. Prior to joining Petronas, he was an Executive Director
+                  in a Big-4 accounting firm where he served 8 years, including
+                  a stint of 3 years as head of International Tax in the Malaysian
+                  practice. He started his career in Taxation in the Inland Revenue
+                  Board, where he served 22 years. Segaran’s over 30 years of tax
+                  experience covers a wide range of industries and legislation
+                  relating to all matters of Malaysian Taxation. He is a council
+                  member of the Chartered Tax Institute of Malaysia since 2011. In
+                  addition to serving in various subcommittees of CTIM he headed
+                  the Editorial Committee and served as editor of Tax Guardian for
+                  3 years. He is currently the head of the Examinations & Education
+                  committee. Segaran is also a trustee of the Malaysian Tax Research
+                  Foundation. He is also a regular speaker in CTIM and public
+                  seminars in Malaysia on various tax topics. He holds a degree in
+                  Economics (Business Administration), Bachelor of Jurisprudence
+                  (Hons) and MBA (Accountancy) from University of Malaya."
 
 - id: 17
   name: "Enkhzul Jambal"
   position-list:
   - position: "Senior Tax Consultant, PwC Mongolia"
   image: "speaker17"
+  profile-list:
+      - profile: "<b class='profile-header'>CORE COMPETENCIES:</b>"
+      - profile: "Possess extensive knowledge of the accounting and tax
+                  systems of Mongolia "
+      - profile: "In-depth knowledge of tax procedures, rules and regulations
+                  and double tax treaty network of Mongolia"
+      - profile: "Possess advanced knowledge of International Financial
+                  Reporting Standards, accounting law, rules and regulations of
+                  Mongolia"
+      - profile: "<b class='profile-header'>PROFESSIONAL TITLES OBTAINED:</b>"
+      - profile: "Certified Public Accountant (CPA) of Mongolia"
+      - profile: "Certified Public Tax Accountant (CPTA) of Mongolia"
+      - profile: "ACCA member student (completed first 6 foundation exams)."
 
 - id: 18
   name: "Jeremy Choi"
   position-list:
   - position: "Tax Partner, PwC Hong Kong"
   image: "speaker19"
+  profile-list:
+      - profile: "Jeremy joined PwC in 1994 and is currently a Tax Partner in PwC
+                  Hong Kong. He has extensive experience in the transportation
+                  and logistics industries including airline operator, aircraft leasing
+                  operation and online business operation."
+      - profile: "Jeremy handled both tax compliance and consulting assignments
+                  and has extensive experience in Hong Kong and regional tax
+                  consultancy work including corporate restructuring and taxefficient
+                  holding structures, tax planning for IPO, regional tax
+                  planning, mergers and acquisition, tax ruling application, tax
+                  investigation, debt financing structuring, cross border tax
+                  planning, etc."
+      - profile: "Jeremy is a member of the Hong Kong Institute of Certified
+                  Public Accountants and the American Institute of Certified Public
+                  Accountants. Besides being a double degree holder in Economics
+                  and Law, Jeremy has also obtained his PCLL qualification. He is
+                  the Chairman of International Tax Committee of The Taxation
+                  Institute of Hong Kong and a Certified Tax Adviser."
 
 - id: 19
   name: "Maria Lourdes P. Lim"
@@ -122,6 +478,33 @@
   - position: "Tax Managing Partner, Isla Lipana & Co./PwC"
   - position: "President, Tax Management Association of the Philippines "
   image: "moderator6"
+  profile-list:
+      - profile: "Malou leads the tax practice of the Philippine office. She has more
+                  than 21 years of professional and extensive experience in providing tax
+                  consultancy services for various multinational companies of different
+                  industries such as Financial Services, Real Estate, Consumer & Industrial
+                  Products and Services (CIPS), Energy, Oil & Gas. "
+      - profile: "Her core experience includes corporate structuring and taxation, with
+                  emphasis on in-bound and out-bound investment planning; crossborder
+                  acquisitions; advisory on the application and interpretation of
+                  domestic laws on tax, investment, corporate and securities regulations; restructuring/reorganization; mergers & acquisitions; tax due diligence/
+                  tax health check review; tax assessments and refund claims."
+      - profile: "From April 2001 to December 2002, Malou joined the government upon
+                  invitation of the Commissioner of Internal Revenue as Technical Assistant
+                  for Legal and Operations. "
+      - profile: "Prior to joining the firm, her other professional experience includes
+                  working as an accountant and as a financial analyst."
+      - profile: "She earned her degree in Bachelor of Laws in 1995 from San Beda
+                  College, Manila. Prior to law, she finished Bachelor of Science in
+                  Business Administration (BSBA) at the Philippine School of Business
+                  Administration."
+      - profile: "She has completed various PwC training programs and the Asia
+                  Leadership Program at INSEAD Singapore."
+      - profile: "Being both a CPA and a lawyer, Malou maintains active memberships
+                  at the Philippine Institute of Certified Public Accountants and the
+                  Integrated Bar of the Philippines. She is currently the President and
+                  member of the board of directors of the Tax Management Association
+                  of the Philippines."
 
 - id: 20
   name: "Dr. Shih Chou, Huang "
@@ -129,6 +512,25 @@
   - position: "Associate Professor - Faculty of Tax Administration"
   - position: "National Taipei University of Business"
   image: "speaker20"
+  profile-list:
+      - profile: "<b class='profile-header'>Educational Background:</b>"
+      - profile: "LLM and jur. Phd of National Taiwan University, College of Law"
+      - profile: "Regular Visiting Scholar of International Tax Center Heidelberg
+                  Uni, International Tax Center of Max Planck Institute Munich."
+      - profile: "<b class='profile-header'>Work Experience:</b>"
+      - profile: "Tax Attorney at PwC Taipei Office"
+      - profile: "Assistant Professor, Associate Professor, Dean of Faculty of Tax
+                  Administration of NTUB 2014-2017"
+      - profile: "Lecturer at Judge’s Academy, Finance Academy, IRS, Bar
+                  Association, CPA Association. "
+      - profile: "Member of IFA Taipei, Deutsche Steuerjurist Gesellschaft"
+      - profile: "<b class='profile-header'>Expertise:</b>"
+      - profile: "Tax Litigation and Tax Planning"
+      - profile: "International Taxation and Practice"
+      - profile: "<b class='profile-header'>Publish:</b>"
+      - profile: "Burden of Proof in Tax Litigation, Case Study on Tax Litigation"
+      - profile: "Introduction of BEPS and Taxation on E-commerce, etc and
+                  100+ articles"
 
 - id: 21
   name: "Teresa Chua"
@@ -136,17 +538,64 @@
   - position: "Group Manager, Asia Tax"
   - position: "Procter & Gamble"
   image: "speaker21"
+  profile-list:
+      - profile: "Theresa has more than 15 years of tax experience in the Big
+                  Four Accounting Firm and U.S. multinational company. She has
+                  extensive experience in corporate and indirect taxation, transfer
+                  pricing, mergers, acquisitions and divestitures, planning and
+                  policy and working with various tax authorities in finalizing tax
+                  affairs and resolving disputes. "
+      - profile: "Theresa has Bachelor of Accountancy (Honours) from Nanyang
+                  Technological University of Singapore, Bachelors of Law (Honours)
+                  from University of London, and Master of Taxation from University
+                  of New South Wales Australia. She is also a Chartered Accountant
+                  in Singapore, Australia and New Zealand and is an Accredited Tax
+                  Practitoner in Singapore."
 
 - id: 22
   name: "Marissa O. Cabreros"
   position-list:
   - position: "Assistant Commisioner - Bureau of Internal Revenue"
   image: "speaker22"
+  profile-list:
+      - profile: "Marissa O. Cabreros is the Bureau of Internal Revenue’s Assistant
+                  Commissioner (ACIR) for Legal Service since 2010. She is likewise
+                  designated the official Spokesperson for the Commissioner of
+                  Internal Revenue."
+      - profile: "She has been in government service for 28 years now and holds
+                  the rank of CESO IV as a third level official in government service.
+                  She has served the BIR in various work assignments in the Region
+                  and National Offices including the Enforecement Service, Large
+                  Taxpayers Service and now at the Legal Service."
+      - profile: "ACIR Cabreros has an exemplary educational background which
+                  covers the area of public management, accounting and legal
+                  profession. She finished her Masters in Public Management (MPM)
+                  under the joint program of the National University of Singapore Lee
+                  Kuan Yew School of Public Policy and Harvard Kennedy School of
+                  Government in 2013. Harvard is not a strange ground to her having
+                  finished her International Taxation studies in Harvard Law School
+                  in 1998. She earned her Bachelor in Science in Commerce major in
+                  Accounting in the University of Santo Tomas and her Juris Doctor
+                  degree from the Ateneo de Manila University."
 
 - id: 23
   name: "Chang Kyu Lee"
   position-list:
   - position: "President, Korean Association of Certified Public Tax Accountants "
   image: "speaker23"
+  profile-list:
+      - profile: "<b class='profile-header'>Education:</b>"
+      - profile: "Business Administration, Kookje University"
+      - profile: "Duksoo Commercial High School"
+      - profile: "<b class='profile-header'>Experience:</b>"
+      - profile: "2017.7.3: 30th President, KACPTA"
+      - profile: "2007.5.~2011.5: 8th~9th President, Seoul CPTA Association "
+      - profile: "2003.4.~2005.4: Deputy President, KACPTA - Deputy President, Seoul CPTA Association - Director of KACPTA Foundation - 25 years for the NTS"
+      - profile: "<b class='profile-header'>Awards:</b>"
+      - profile: "2012.03: Presidential Citation "
+      - profile: "2011.04: Interior & Safety Ministerial Citation "
+      - profile: "2004.03: Financial Ministerial Citation"
+      - profile: "1980.08: Service Merit Medal "
+
 
 
