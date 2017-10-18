@@ -6,13 +6,42 @@
        </div>
        <div class="speaker-container clearfix">
            {% for speaker in site.data.speaker %}
-           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 speaker-list">
+           <a data-toggle="modal" data-target="#speaker-{{ speaker.id }}" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 speaker-list">
                <img src="/img/speaker/{{ speaker.image }}.png" class="img-responsive center-block speaker-image" />
                <span class="speaker-name">{{ speaker.name }}</span>
-               {% for positionList in speaker.position-list %}
-               <span class="speaker-position">{{ positionList.position }}</span>
-               {% endfor %}
+           </a>
+
+           <div class="modal fade" id="speaker-{{ speaker.id }}" tabindex="-1" role="dialog" aria-labelledby="{{ speaker.name }}" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                       <div class="close-modal" data-dismiss="modal">
+                           <div class="lr">
+                               <div class="rl">
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="modal-body clearfix">
+                           <div class="left-section col-md-4">
+                               <img src="/img/speaker/{{ speaker.image }}.png" class="img-responsive center-block speaker-image" />
+                           </div>
+                           <div class="right-section col-md-8">
+                               <span class="person-name">{{ speaker.name }}</span>
+                               {% for positionList in speaker.position-list %}
+                                <span class="person-position">{{ positionList.position }}</span>
+                               {% endfor %}
+                                <div class="profile-container">
+                                   {% for profileList in speaker.profile-list %}
+                                   <p class="person-profile">{{ profileList.profile }}</p>
+                                   {% endfor %}
+                                </div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
            </div>
+
            {% endfor %}
        </div>
    </div>
@@ -22,14 +51,48 @@
        </div>
        <div class="moderator-container clearfix">
            {% for moderator in site.data.moderator %}
-           <div class="col-md-3 moderator-list">
+           <a data-toggle="modal" data-target="#moderator-{{ moderator.id }}" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 moderator-list">
                <img src="/img/moderator/{{ moderator.image }}.png" class="img-responsive center-block moderator-image" />
                <span class="moderator-name">{{ moderator.name }}</span>
-               {% for positionList in moderator.position-list %}
-               <span class="moderator-position">{{ positionList.position }}</span>
-               {% endfor %}
+           </a>
+
+           <div class="modal fade" id="moderator-{{ moderator.id }}" tabindex="-1" role="dialog" aria-labelledby="{{ moderator.name }}" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                       <div class="close-modal" data-dismiss="modal">
+                           <div class="lr">
+                               <div class="rl">
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="modal-body clearfix">
+                           <div class="left-section col-md-4">
+                               <img src="/img/moderator/{{ moderator.image }}.png" class="img-responsive center-block moderator-image" />
+                           </div>
+                           <div class="right-section col-md-8">
+                               <span class="person-name">{{ moderator.name }}</span>
+                               {% for positionList in moderator.position-list %}
+                               <span class="person-position">{{ positionList.position }}</span>
+                               {% endfor %}
+                               <div class="profile-container">
+                                   {% for profileList in moderator.profile-list %}
+                                   <p class="person-profile">{{ profileList.profile }}</p>
+                                   {% endfor %}
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
            </div>
+
            {% endfor %}
+
+
+
        </div>
    </div>
 </div>
+
+
