@@ -4,6 +4,9 @@
 - name: Program
   url: "/program"
 
+- name: "Speaker & Moderator"
+  url: "/speaker"
+
 - name: Gallery
   url: "/gallery"
 
@@ -24,5 +27,3 @@
 - name: Contact Us
   url: "/contact"
 
-- name: "Speaker & Moderator"
-  url: "/speaker"
