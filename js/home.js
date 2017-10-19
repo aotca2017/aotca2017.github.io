@@ -208,27 +208,27 @@ main.onIconTransition = function() {
 main.initCountDown = function(){
     var weddingDate = new Date ('2017/10/19 ');
     
-    $('#countdown-day').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
-        var $this = $(this).html(event.strftime(
-        '<span class="countdown-number">%-D</span>'))
-        var countdownHeader = $("#countdown .section-header");
+    // $('#countdown-day').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
+    //     var $this = $(this).html(event.strftime(
+    //     '<span class="countdown-number">%-D</span>'))
+    //     var countdownHeader = $("#countdown .section-header");
+    //
+    // });
 
-    });
+    // $('#countdown-hour').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
+    //     var $this = $(this).html(event.strftime(
+    //         '<span class="countdown-number">%-H</span>'))
+    // });
 
-    $('#countdown-hour').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
-        var $this = $(this).html(event.strftime(
-            '<span class="countdown-number">%-H</span>'))
-    });
+    // $('#countdown-minute').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
+    //     var $this = $(this).html(event.strftime(
+    //         '<span class="countdown-number">%-M</span>'))
+    // });
 
-    $('#countdown-minute').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
-        var $this = $(this).html(event.strftime(
-            '<span class="countdown-number">%-M</span>'))
-    });
-
-    $('#countdown-second').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
-        var $this = $(this).html(event.strftime(
-            '<span class="countdown-number">%-S</span>'))
-    });
+    // $('#countdown-second').countdown(weddingDate, {elapse: true}).on('update.countdown', function(event) {
+    //     var $this = $(this).html(event.strftime(
+    //         '<span class="countdown-number">%-S</span>'))
+    // });
 };
 
 $(function(){
