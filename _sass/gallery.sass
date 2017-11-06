@@ -6,6 +6,17 @@
 .stylized
   font-family: 'Dancing-Script-Regular','sans-serif'
 
+//.b-lazy
+//  background-color: white
+//  -webkit-transition: opacity 500ms ease-in-out
+//  -moz-transition: opacity 500ms ease-in-out
+//  -o-transition: opacity 500ms ease-in-out
+//  transition: opacity 500ms ease-in-out
+//  max-width: 100%
+//  opacity: 0
+//
+//.b-lazy.b-loaded
+//  opacity: 1
 
 
 #gallery
@@ -26,7 +37,145 @@
       text-align: center
   .container
     max-width: 970px
+    padding-top: 50px
+    padding-bottom: 50px
 
+  #gallery-container
+    min-height: 600px
+    .section-header
+      .header
+        font-family: "Gotham-Medium"
+        text-align: center
+        font-size: 28px
+        max-width: 90%
+        min-width: 90%
+        margin: 15px auto
+    .image-container
+      .placeholder
+        padding-left: 0.1px
+        padding-right: 0.1px
+        width: 32.33%
+        float: left
+        margin-right: 1%
+        margin-bottom: 1%
+        overflow: hidden
+        position: relative
+        display: block
+        cursor: pointer
+        -webkit-transition: all 0.3s ease-in-out
+        -moz-transition: all 0.3s ease-in-out
+        -o-transition: all 0.3s ease-in-out
+        transition: all 0.3s ease-in-out
+        min-height: 290px
+        background: #ffffff url("/img/loading.gif") center no-repeat
+        .image-link
+          position: relative
+          display: block
+          &.add-after
+            &:after
+              content: "\e003"
+              font-family: 'Glyphicons Halflings'
+              opacity: 0
+              background-color: rgba(0, 0, 0, 0.75)
+              position: absolute
+              right: 0
+              left: 0
+              top: 0
+              margin-left: auto
+              margin-right: auto
+              bottom: 0
+              text-align: center
+              line-height: 280px
+              font-size: 30px
+              color: #fff
+              -webkit-transition: all 0.5s ease-in-out 0s
+              -moz-transition: all 0.5s ease-in-out 0s
+              transition: all 0.5s ease-in-out 0s
+            &:hover:after
+              opacity: 1
+          .content-image
+            object-fit: cover
+            display: block
+            width: 100%
+            height: 100%
+            margin: auto
+            &.b-lazy
+              -webkit-transition: all 0.3s ease-in-out
+              -moz-transition: all 0.3s ease-in-out
+              -o-transition: all 0.3s ease-in-out
+              transition: all 0.3s ease-in-out
+              max-width: 100%
+              min-height: 290px
+              background: #ffffff url("/img/loading.gif") center no-repeat
+            &.b-loaded
+              background: transparent
+
+.modal.fade
+  .modal-dialog
+    max-width: 80%
+    margin: 0 auto
+    position: absolute
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease
+    transition: all 0.3s ease
+    width: fit-content
+    top: 50%
+    left: 0
+    right: 0
+    opacity: 1
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    -o-transform: translateY(-50%)
+    transform: translateY(-50%)
+    .content-image
+      max-height: 768px
+  &.in
+    background-color: rgba(0,0,0,0.7)
+    .modal-dialog
+      margin-top: 0
+      margin-bottom: 0
+      top: 50%
+      left: 0
+      right: 0
+      opacity: 1
+      -webkit-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      transform: translateY(-50%)
+      .content-image
+        max-height: 768px
+
+.modal-content
+  border: none
+  border-radius: 2px
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  padding: 0
+  background-color: transparent
+  .close
+    position: absolute
+    width: 35px
+    height: 35px
+    background-color: #000
+    opacity: 1
+    color: #ffffff
+    z-index: 999
+    right: -5px
+    top: -5px
+    border-radius: 50%
+    font-size: 24px
+    border: 2px solid #fff
+    line-height: 34px
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.35)
+    box-shadow: none
+    text-shadow: none
+    &:focus
+      outline: none
+    &:hover
+      opacity: 1
+      color: #ffffff
 
 
 @media (max-width: 1250px)
@@ -42,12 +191,35 @@
       .header
         font-size: 28px
 
+    #gallery-container
+      .image-container
+        .placeholder
+          width: 49%
+
+@media (max-width: $screen-xs-max)
+  #gallery
+    #gallery-container
+      .image-container
+        .placeholder
+          margin-left: 0.5%
+          margin-right: 0.5%
+          width: 99%
+          margin-bottom: 15px
+          .image-link
+            &.add-after
+              &:after
+                display: none
+
 
 @media (max-width: 568px)
   #gallery
     .container
       padding-left: 15px
       padding-right: 15px
+      #gallery-container
+        .section-header
+          .header
+            font-size: 24px
 
 
 
