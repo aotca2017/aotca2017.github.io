@@ -1,3 +1,4 @@
+
 <div class="section-header">
     <h2 class="header">#aotca2017manila</h2>
 </div>
@@ -7,11 +8,82 @@
 
 
 <div id="gallery-container" class="container">
-    <div class="section-header">
-        <h2 class="header">Asia Oceania Tax Consultants' Association 2017 International Tax Conference</h2>
+
+    <div id="gallery1" class="section-header">
+        <h2 class="header">October 18 2017</h2>
     </div>
     <div class="image-container clearfix">
-        {% for gallery in site.data.gallery %}
+        {% for gallery in site.data.gallery1 %}
+        <div class="placeholder">
+            <a class="image-link " data-toggle="modal" data-target="#{{ gallery.id }}" target="_blank">
+                <img class="content-image b-lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+            </a>
+            <div class="modal fade" id="{{ gallery.id }}" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <div class="modal-body">
+                            <img class="content-image lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div id="gallery2" class="section-header">
+        <h2 class="header">October 19 2017</h2>
+    </div>
+    <div class="image-container clearfix">
+        {% for gallery in site.data.gallery2 %}
+        <div class="placeholder">
+            <a class="image-link " data-toggle="modal" data-target="#{{ gallery.id }}" target="_blank">
+                <img class="content-image b-lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+            </a>
+            <div class="modal fade" id="{{ gallery.id }}" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <div class="modal-body">
+                            <img class="content-image lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
+    <div id="gallery3" class="section-header">
+        <h2 class="header">October 20 2017</h2>
+    </div>
+    <div class="image-container clearfix">
+        {% for gallery in site.data.gallery3 %}
+        <div class="placeholder">
+            <a class="image-link " data-toggle="modal" data-target="#{{ gallery.id }}" target="_blank">
+                <img class="content-image b-lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+            </a>
+            <div class="modal fade" id="{{ gallery.id }}" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <div class="modal-body">
+                            <img class="content-image lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div id="gallery4" class="section-header">
+        <h2 class="header">October 21 2017</h2>
+    </div>
+    <div class="image-container clearfix">
+        {% for gallery in site.data.gallery4 %}
         <div class="placeholder">
             <a class="image-link " data-toggle="modal" data-target="#{{ gallery.id }}" target="_blank">
                 <img class="content-image b-lazy img-responsive center-block" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ gallery.image }}"/>
