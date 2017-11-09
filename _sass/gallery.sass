@@ -26,7 +26,7 @@
   position: relative
   padding-bottom: 50px
   .section-header
-    padding-top: 30px
+    padding-top: 80px
     padding-bottom: 30px
     .header
       font-family: "Gotham-Medium"
@@ -36,7 +36,8 @@
       margin-bottom: 15px
       text-align: center
   .container
-    padding-top: 50px
+    max-width: 970px
+    padding-top: 15px
     padding-bottom: 50px
 
   #gallery-container
@@ -106,10 +107,58 @@
               -o-transition: all 0.3s ease-in-out
               transition: all 0.3s ease-in-out
               max-width: 100%
-              min-height: 290px
+              height: 290px
               background: #ffffff url("/img/loading.gif") center no-repeat
             &.b-loaded
               background: transparent
+
+#sticky-menu
+  position: fixed
+  top: 45%
+  left: 0
+  z-index: 3
+  ul
+    list-style: none
+    padding-left: 0
+    li
+      .sticky-link
+        text-decoration: none
+        outline: none
+        color: white
+        font-family: "Gotham-Medium"
+        text-transform: uppercase
+        display: block
+        padding: 15px 20px
+      &:nth-child(1)
+        background-color: #3498db
+        transition: all 300ms ease-in-out
+        &:hover
+          background-color: #2980b9
+
+      &:nth-child(2)
+        background-color: #f1c40f
+        transition: all 300ms ease-in-out
+        &:hover
+          background-color: #f39c12
+
+      &:nth-child(3)
+        background-color: #9b59b6
+        transition: all 300ms ease-in-out
+        &:hover
+          background-color: #8e44ad
+
+      &:nth-child(4)
+        background-color: #e67e22
+        transition: all 300ms ease-in-out
+        &:hover
+          background-color: #d35400
+
+      &:nth-child(5)
+        background-color: #1abc9c
+        transition: all 300ms ease-in-out
+        &:hover
+          background-color: #16a085
+
 
 .modal.fade
   .modal-dialog
@@ -197,6 +246,16 @@
         .placeholder
           width: 49%
 
+    #sticky-menu
+      top: auto
+      bottom: 0
+      ul
+        margin-bottom: 0
+        li
+          .sticky-link
+            font-size: 12px
+            padding: 15px
+
 @media (max-width: $screen-xs-max)
   #gallery
     #gallery-container
@@ -215,6 +274,7 @@
 @media (max-width: 568px)
   #gallery
     .container
+      padding-bottom: 15px
       padding-left: 15px
       padding-right: 15px
       #gallery-container
