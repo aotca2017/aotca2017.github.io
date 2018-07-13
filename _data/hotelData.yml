@@ -1,55 +1,14 @@
-- id: 1
-  hotel-name: "Makati Shangri-La Hotel"
-  hotel-link: "http://www.shangri-la.com/manila/makatishangrila/"
-  hotel-address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
-  hotel-tel: "Tel: +63 (2) 813 8888"
-  hotel-fax: "Fax: +63 (2) 813 5499"
-  hotel-email: "slm@shangri-la.com"
-  longtitude: 14.553917
-  langtitude: 121.024694
-  img: "https://picsum.photos/200/300"
+- title: "Stockholm"
+  lat: 59.3
+  lng: 18.1
+  description: "Stockholm is the capital and the largest city of Sweden and constitutes the most populated urban area in Scandinavia with a population of 2.1 million in the metropolitan area (2010)"
+  
+- title: "Oslo"
+  lat: 59.9
+  lng: 10.8
+  description: "Oslo is a municipality, and the capital and most populous city of Norway with a metropolitan population of 1,442,318 (as of 2010)."
 
-
-- id: 2
-  hotel-name: "Makati Shangri-La Hotel"
-  hotel-link: "http://www.shangri-la.com/manila/makatishangrila/"
-  hotel-address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
-  hotel-tel: "Tel: +63 (2) 813 8888"
-  hotel-fax: "Fax: +63 (2) 813 5499"
-  hotel-email: "slm@shangri-la.com"
-  longtitude: 14.555029
-  langtitude: 121.025457
-  img: "https://picsum.photos/200/300"
-
-- id: 3
-  hotel-name: "Makati Shangri-La Hotel"
-  hotel-link: "http://www.shangri-la.com/manila/makatishangrila/"
-  hotel-address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
-  hotel-tel: "Tel: +63 (2) 813 8888"
-  hotel-fax: "Fax: +63 (2) 813 5499"
-  hotel-email: "slm@shangri-la.com"
-  longtitude: 14.553917
-  langtitude: 121.024694
-  img: "https://picsum.photos/200/300"
-
-- id: 4
-  hotel-name: "Makati Shangri-La Hotel"
-  hotel-link: "http://www.shangri-la.com/manila/makatishangrila/"
-  hotel-address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
-  hotel-tel: "Tel: +63 (2) 813 8888"
-  hotel-fax: "Fax: +63 (2) 813 5499"
-  hotel-email: "slm@shangri-la.com"
-  longtitude: 14.553917
-  langtitude: 121.024694
-  img: "https://picsum.photos/200/300"
-
-- id: 5
-  hotel-name: "Makati Shangri-La Hotel"
-  hotel-link: "http://www.shangri-la.com/manila/makatishangrila/"
-  hotel-address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
-  hotel-tel: "Tel: +63 (2) 813 8888"
-  hotel-fax: "Fax: +63 (2) 813 5499"
-  hotel-email: "slm@shangri-la.com"
-  longtitude: 14.553917
-  langtitude: 121.024694
-  img: "https://picsum.photos/200/300"
+- title: "Copenhagen"
+  lat: 55.7
+  lng: 12.6
+  description: "Copenhagen is the capital of Denmark and its most populous city, with a metropolitan population of 1,931,467 (as of 1 January 2012)."
