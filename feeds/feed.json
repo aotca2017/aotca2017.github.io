@@ -1,0 +1,21 @@
+---
+layout: null
+---
+[
+  {% for hotelData in site.data.hotelData %}
+    {
+
+      "name": "{{hotelData.hotel-name}}",
+      "link": "{{hotelData.hotel-link}}",
+      "img": "{{hotelData.img}}",
+      "address": "{{hotelData.hotel-address}}",
+      "telephone": "{{hotelData.hotel-tel}}",
+      "fax": "{{hotelData.hotel-fax}}",
+      "email": "{{hotelData.hotel-email}}",
+      "longtitude": {{hotelData.longtitude}},
+      "langtitude": {{hotelData.langtitude}},
+      "id": {{hotelData.id}}
+    }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

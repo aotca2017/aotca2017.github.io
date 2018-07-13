@@ -1,0 +1,105 @@
+---
+layout: null
+---
+
+<script>
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(39.632906,-106.524591);
+        var myOptions = {
+            zoom: 8,
+            center: myLatlng,
+            mapTypeControl: true,
+            mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+            navigationControl: true,
+            navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("mapdiv"), myOptions);
+
+        var url = "eventdata.json";
+        $.getJSON(url,
+            function(data){
+                $.each(data.markers, function(i,markers){
+
+                    var mylati = data.markers[i].lati;
+                    var mylong = data.markers[i].long;
+                    var mytitle = data.markers[i].title;
+                    var myaddress = data.markers[i].address;
+                    var myhtml = data.markers[i].html;
+
+                    var mycontent = "<div class='infowin'><h3>" + mytitle + "</h3>" + "<h4>"
+                        + myaddress + "</h4>" + myhtml + "</div>";
+
+                    var myLatlng = new google.maps.LatLng(parseFloat(mylati),parseFloat(mylong));
+
+
+                    var map = new google.maps.Map(document.getElementById("map_canvas"), options);
+
+
+                    var markers = [];
+                    for (var i = 0, dataMarkers; dataMarkers = data.markers[i]; i++) {
+                        var latLng = new google.maps.LatLng(dataMarkers.lat, dataMarkers.lng);
+                        var marker = new google.maps.Marker({
+                            position: latLng,
+                            title: dataMarkers.title,
+                            date: dataMarkers.date,
+                            time: dataMarkers.time,
+                            desc: dataMarkers.desc,
+                            img: dataMarkers.img,
+                            add: dataMarkers.address,
+                            cat: dataMarkers.cat,
+                            map: map
+                        });
+
+
+                        var infowindow = new google.maps.InfoWindow({
+                            content: " "
+                        });
+                        google.maps.event.addListener(marker, 'click', function() {
+                            infowindow.setContent('<div id="mapCont"><img class="mapImg" src="'+this.img+'"/>' +
+                                '<div class="mapTitle">'+this.title+'</div>' +
+                                '<div class="mapHead">Date: <div class="mapInfo">'+this.date+'</div>' +
+                                '<div class="mapHead">Time: <div class="mapInfo">'+this.time+'</div>' +
+                                '<p>'+this.desc+'</p></div>');
+                            infowindow.open(map, this);
+                        });
+
+                        markers.push(marker);
+                    }
+
+
+                    var markerClusterer = new MarkerClusterer(map, markers, {
+                        maxZoom: 15,
+                        gridSize: 50
+                    });
+                    <!--Load Event Markers-->
+                    var markers = [];
+                    for (var i = 0, dataMarkers; dataMarkers = data.markers[i]; i++) {
+                        var latLng = new google.maps.LatLng(dataMarkers.lat, dataMarkers.lng);
+                        var theTitle = dataMarkers.title;
+                        var marker = new google.maps.Marker({
+                            position: latLng,
+                            clickable: true,
+                            title: theTitle,
+                        });
+                        markers.push(marker);
+                    }
+
+
+                    var infowindow = new google.maps.InfoWindow({
+                        content: mycontent
+                    });
+
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.open(map,marker);
+                    });
+
+
+
+
+                });
+            });
+
+    }
+</script>
