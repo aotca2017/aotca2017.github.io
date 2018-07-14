@@ -1,0 +1,123 @@
+- id: 1
+  title: "Makati Shangri-La Hotel"
+  link: "http://www.shangri-la.com/manila/makatishangrila/"
+  address: "Ayala Avenue corner Makati Avenue, Makati City, 1200, Philippines"
+  telephone: "Tel: +63 (2) 813 8888"
+  fax: "Fax: +63 (2) 813 5499"
+  email: "Email: slm@shangri-la.com"
+  long: 14.553917
+  lang: 121.024694
+  img: "/img/yellow-marker.png"
+  markerH: 85
+  markerW: 55
+
+
+- id: 2
+  title: "The Peninsula Manila"
+  link: "http://manila.peninsula.com/en/default"
+  address: "Corner of Ayala and Makati Avenues, 1226, Makati, Metro Manila, Republic of the Philippines"
+  telephone: "Tel: +63 (2) 887 2888"
+  fax: ""
+  email: "Email: pmn@peninsula.com"
+  long: 14.555029
+  lang: 121.025457
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+
+- id: 3
+  title: "Ascott Makati"
+  link: "http://www.the-ascott.com/en/philippines/manila/ascott-makati/index.html"
+  address: "Glorietta 4, Ayala Centre, Makati City 1224, Philippines"
+  telephone: "Tel: +63 (2) 729 8888"
+  fax: ""
+  email: "Email: enquiry.manila@the-ascott.com"
+  long: 14.551011
+  lang: 121.026261
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+
+- id: 4
+  title: "New World Makati Hotel"
+  link: "https://manila.newworldhotels.com/en/"
+  address: "Esperanza Street corner Makati Avenue, Ayala Center, Makati City 1228, Philippines"
+  telephone: "Tel: +63 (2) 811 6888"
+  fax: "Fax: +63 (2) 811 6777"
+  email: ""
+  long: 14.551332
+  lang: 121.021478
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+
+- id: 5
+  title: "Makati Diamond Residences"
+  link: "https://www.makatidiamond.com/"
+  address: "118 Legazpi Street, Legazpi Village, Makati City 1229 Philippines"
+  telephone: "Tel: +63 (2) 317 0999"
+  fax: "Fax: +63 (2) 878 9699"
+  email: "Email: reservations@makatidiamond.com"
+  long: 14.553764
+  lang: 121.020909
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+- id: 6
+  title: "Dusit Thani Manila"
+  link: "https://www.dusit.com/dusitthani/manila/"
+  address: "Ayala Centre, 1223 Makati City Metro Manila, Philippines"
+  telephone: "Tel: +63 (2) 238 8888"
+  fax: "Fax: +63 (2) 238 8800"
+  email: "Email: dtmn@dusit.com"
+  long: 14.548569
+  lang: 121.026199
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+- id: 7
+  title: "Holiday Inn Hotel & Suites Makati"
+  link: "https://www.ihg.com/holidayinn/hotels/us/en/makati/mnlgs/hoteldetail"
+  address: "Holiday Inn Hotel & Suites Makati"
+  telephone: "Tel: +63 (2) 909 0888"
+  fax: ""
+  email: "Email: hism.reservations@ihg.com"
+  long: 14.550576
+  lang: 121.025107
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+- id: 8
+  title: "Discovery Primea"
+  link: "http://www.discoveryprimea.com/"
+  address: "6749 Ayala Avenue, Makati City, 1226 Philippines"
+  telephone: "Tel: +63 (2) 955 8888"
+  fax: "Fax: +63 (2) 955 8889"
+  email: "Email: dp.rsvn@discovery.com.ph"
+  long: 14.553464
+  lang: 121.026942
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+- id: 9
+  title: "Fairmont Makati"
+  link: "http://www.fairmont.com/makati/"
+  address: "1 Raffles Drive, Makati Avenue, Makati City, 1224 Philippines"
+  telephone: "Tel: +63 (2) 795 1888"
+  fax: "Fax: +63 (2) 555 9899"
+  email: "Email: makati@fairmont.com"
+  long: 14.550752
+  lang: 121.022796
+  img: "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2_hdpi.png"
+  markerH: 43
+  markerW:  27
+
+
+
