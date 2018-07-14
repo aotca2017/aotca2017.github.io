@@ -2,13 +2,21 @@
 layout: null
 ---
 [
-  {% for hotelData in site.data.hotelData %}
+  {% for hotelData in site.data.hotel-info %}
     {
+      "id": {{ hotelData.id }},
+      "title": "{{ hotelData.title }}",
+      "link": "{{ hotelData.link }}",
+      "address": "{{ hotelData.address }}",
+      "telephone": "{{ hotelData.telephone }}",
+      "email": "{{ hotelData.email }}",
+      "fax": "{{ hotelData.fax }}",
+      "lat": {{ hotelData.long }},
+      "lng": {{ hotelData.lang }},
+      "icon": "{{ hotelData.img }}",
+      "markerH": "{{ hotelData.markerH }}",
+      "markerW": "{{ hotelData.markerW }}"
 
-      "title": "{{hotelData.title}}",
-      "lat": {{hotelData.lat}},
-      "lng": {{hotelData.lng}},
-      "description": "{{hotelData.description}}"
 
     }
   {% unless forloop.last %},{% endunless %}
